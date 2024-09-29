@@ -9,7 +9,9 @@ const Navbar = () => {
     <nav className="w-full flex nav-style justify-between items-center navbar">
       <div className="flex">
         <img src={logo} alt="bananafrog" className="w-[40px] h-[40px] logo" />
-        <a className="text-white font-poppins ml-5 mt-2">BananaFrog3D</a>
+        <a className="text-white font-poppins ml-5 mt-2 logo-text-1">Banana</a>
+        <a className="text-white font-poppins mt-2 logo-text-2">Frog</a>
+        <a className="text-white font-poppins mt-2 logo-text-3">3D</a>
       </div>
       <ul className="list-none sm:flex hidden justify-end items-center flex-1">
         {navLinks.map((nav, i) => (
