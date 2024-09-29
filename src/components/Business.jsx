@@ -29,7 +29,7 @@ const Business = () => {
     <section id="features" className={layout.section}>
       <div className={layout.sectionInfo}>
         <h2 className={`${styles.heading2}`}>
-          Who are we?
+          Who are <span className="text-gradient">we</span>?
         </h2>
         <p className={`${styles.paragraph} md:max-w-[470px] mt-5`}>
           We are a small but passionate Portuguese team of technology artists who believe that creativity knows no bounds. 
@@ -40,7 +40,6 @@ const Business = () => {
           At the heart of everything we do is a deep love for transforming what seems impossible into something real, tangible, and beautiful.
         </p>
       </div>
-      <div className="absolute z-[0] w-[60%] h-[40%] -right-[50%] rounded-full yellow__gradient top-160" />
       <div className={`${layout.sectionImg} flex-col`}>
         {features.map((feature, index) => (
           <FeatureCard key={feature.id} {...feature} index={index} />
