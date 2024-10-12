@@ -17,12 +17,10 @@ td {
 }
 
 th {
-  background-color: #f4f4f4;
   font-weight: 1000;
   color: #ffffff;
   text-transform: uppercase;
   letter-spacing: 0.05em;
-  border-bottom: 2px solid #e0e0e0;
 }
 
 tr:hover {

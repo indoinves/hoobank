@@ -1,23 +1,31 @@
 import React from "react";
 import { printer } from "../assets";
 import styles, { layout } from "../styles/style";
+import { useTranslation } from "react-i18next";
 
 const Equipment = () => {
+  const { t } = useTranslation();
+
   return (
     <section className={layout.section}>
       <div className={layout.sectionInfo}>
         <h2 className={styles.heading2}>
-          Equipment That  <br className="md:block hidden" />
-          Gets the Job Done.
+          {t("equipment.heading")} <br className="md:block hidden" />
+          {t("equipment.subheading")}
         </h2>
         <p className={`${styles.paragraph} md:max-w-[470px] mt-5`}>
-          Our production is powered by several Anycubic Kobra 2 Max printers, a top-tier 3D printer known for its precision and reliability. 
-          With a large build volume and advanced features, this machine ensures that we can handle complex and high-quality prints, 
-          delivering detailed and durable results every time.
+          {t("equipment.description")}
         </p>
       </div>
       <div className={layout.sectionImg}>
-        <video src={printer} autoPlay muted loop alt="3dprinter" className="w-[100%] h-[100%]"/>
+        <video
+          src={printer}
+          autoPlay
+          muted
+          loop
+          alt="3dprinter"
+          className="w-[100%] h-[100%]"
+        />
       </div>
     </section>
   );

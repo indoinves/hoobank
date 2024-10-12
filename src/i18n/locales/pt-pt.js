@@ -9,15 +9,39 @@ import {
 } from "../../assets";
 
 export default {
+  // Same value used for defaultNS
   translations: {
-    // Same value used for defaultNS
+    headline: {
+      part1: "Transformar",
+      part2: "Ideias",
+      part3: "em",
+      part4: "Realidade",
+    },
+    quote: {
+      text: '"Grandes coisas não são feitas por impulso, mas por uma série de pequenas coisas reunidas."',
+      author: "- Vincent Van Gogh",
+    },
+    equipment: {
+      heading: "Equipamento de",
+      subheading: "Alta Fiabilidade.",
+      description:
+        "A nossa produção utiliza várias impressoras Anycubic Kobra 2 Max, impressoras 3D de excelência, reconhecidas pela sua precisão e fiabilidade. Com um grande volume de construção e funcionalidades avançadas, estas máquinas asseguram que conseguimos realizar impressões complexas e de alta qualidade, proporcionando resultados detalhados e duradouros a cada utilização.",
+    },
+    business: {
+      heading: "Quem somos",
+      subheading: "nós?",
+      paragraph1:
+        "Somos uma pequena equipa portuguesa que acredita que a criatividade não tem limites. Nossa missão é simples: transformar as suas ideias mais ambiciosas em realidade através da magia da impressão 3D.",
+      paragraph2:
+        "Colaboramos ativamente consigo de forma a que a sua visão se possa tornar numa realidade. Criamos produtos de qualidade, usando apenas o melhor filamento de impressao.",
+    },
     features: [
       {
         id: "feature-1",
         icon: gear,
         title: "Personalização Exclusiva",
         content:
-          "Dê vida às suas ideias com a nossa avançada tecnologia de impressão 3D, oferecendo personalização incomparável. Criamos produtos únicos e específicos para cada cliente, que são tão funcionais quanto inovadores.",
+          "Dê vida às suas ideias com a nossa avançada tecnologia de impressão 3D, oferecendo personalização incomparável. Criamos produtos únicos para cada cliente, que são tão funcionais quanto inovadores.",
       },
       {
         id: "feature-2",
@@ -31,35 +55,79 @@ export default {
         icon: eco,
         title: "Produção Ecológica",
         content:
-          "Comprometa-se com a sustentabilidade com a nossa impressão 3D ecologicamente consciente. Minimizamos o desperdício e utilizamos materiais recicláveis, garantindo que os seus projetos sejam inovadores e amigos do ambiente.",
+          "Comprometa-se com a sustentabilidade com a nossa impressão 3D ecologica. Minimizamos o desperdício e utilizamos materiais recicláveis, garantindo que os seus projetos possam ser tanto inovadores como amigos para o ambiente.",
       },
     ],
-    feedback: [
-      {
-        id: "feedback-1",
-        content:
-          "Uma experiência agradável e profissional. Não podíamos estar mais satisfeitos com os produtos finais. Altamente recomendado!",
-        name: "Margarida M.",
-        title: "People Opps Specialist",
-        img: peoplerandom,
+    testimonials: {
+      heading: "O que as pessoas dizem sobre nós",
+      feedback: [
+        {
+          id: "feedback-1",
+          content:
+            "Toda a experiência foi fluida e profissional, e não poderíamos estar mais felizes com os produtos finais. Altamente recomendado!",
+          name: "Margarida M.",
+          title: "Especialista em Recursos Humanos",
+          img: "peoplerandom", // Ensure the image reference is correct
+        },
+        {
+          id: "feedback-2",
+          content:
+            "A equipa foi incrivelmente solidária durante todo o processo, e o desconto de 20% em cada terceiro item foi um fantástico bónus.",
+          name: "Luis R.",
+          title: "Engenheiro Mecânico",
+          img: "peoplerandom", // Ensure the image reference is correct
+        },
+        {
+          id: "feedback-3",
+          content:
+            "Todos foram muito simpáticos comigo. Os modelos ficaram ótimos. Recomendo se estiver a procura de algo único!",
+          name: "Maria N.",
+          title: "Professora Assistente",
+          img: "peoplerandom", // Ensure the image reference is correct
+        },
+      ],
+    },
+    materials: {
+      heading: "Escolha os",
+      subheading: "Materiais.",
+      discount: "20% de desconto a cada 3ª encomenda",
+      description:
+        "Experimente soluções de impressão 3D personalizadas. Envie-nos o seu design, escolha o tipo de material e a nossa equipa tratara do resto. As nossas impressões são de alta qualidade e adaptadas às suas necessidades.",
+      table: {
+        header: ["Cores", "Maleabilidade", "Qualidade", "Custo"],
+        rows: [
+          {
+            name: "PLA",
+            malleability: "2/5",
+            quality: "4/5",
+            cost: ["3.00€/h", "2.50€/h"],
+          },
+          {
+            name: "PETG",
+            malleability: "3/5",
+            quality: "4/5",
+            cost: ["3.00€/h", "2.50€/h"],
+          },
+          {
+            name: "TPU",
+            malleability: "1/5",
+            quality: "2/5",
+            cost: ["4.00€/h", "3.50€/h"],
+          },
+          {
+            name: "ABS",
+            malleability: "2/5",
+            quality: "1/5",
+            cost: ["4.00€/h", "3.50€/h"],
+          },
+        ],
       },
-      {
-        id: "feedback-2",
-        content:
-          "A equipa foi incrivelmente prestável durante todo o processo, e o desconto de 20% na terceira encomenda valeu a pena.",
-        name: "Luis R.",
-        title: "Engenharia Mecânica",
-        img: peoplerandom,
-      },
-      {
-        id: "feedback-3",
-        content:
-          "A equipa foi muito simpática comigo. Os modelos ficaram ótimos. Recomendo se estiver à procura de algo único!",
-        name: "Maria N.",
-        title: "Professora",
-        img: peoplerandom,
-      },
-    ],
+    },
+    cta: {
+      heading: "Está pronto para criar?",
+      description:
+        "Adoraríamos ouvir a sua opiniao! Entre em contato conosco e aproveite uma oferta exclusiva: desfrute de um desconto de 20% a cada terceira encomenda! Estamos ansiosos por dar vida às suas ideias!",
+    },
     products: [
       {
         id: "product-1",

@@ -1,7 +1,10 @@
 import styles from "../styles/style";
 import landing_page from "../assets/video/landing_page.mp4";
+import { useTranslation } from "react-i18next";
 
 const Landing = () => {
+  const { t } = useTranslation();
+
   return (
     <section
       id="home"
@@ -16,17 +19,18 @@ const Landing = () => {
         {/* Main text */}
         <div className="w-full">
           <h1 className={`font-poppins font-semibold sm:text-[110px] ss:text-[100px] text-[55px] text-white sm:leading-[140px] ss:leading-[110px] leading-[70px]`}>
-            Turning <br className="md:block hidden" />
-            <span className="text-gradient">Ideas</span>{" "}
+            {t('headline.part1')} <br className="md:block hidden" />
+            <span className="text-gradient">{t('headline.part2')}</span>{" "}
             <br className="md:block hidden" />
-            Into <span className="text-gradient">Reality</span>
+            {t('headline.part3')} <span className="text-gradient">{t('headline.part4')}</span>
           </h1>
         </div>
-        <p className={`${styles.paragraph}  text-[20px] md:max-w-[500px] md:mt-10 mt-20`}>
+        <p className={`${styles.paragraph} text-[20px] md:max-w-[500px] md:mt-10 mt-20`}>
           <i>
-            "Great things are not done by impulse, but by a series of small things brought together."
+            {t('quote.text')}
           </i>
-          <br></br>- Vincent Van Gogh
+          <br />
+          {t('quote.author')}
         </p>
       </div>
     </section>

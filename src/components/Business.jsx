@@ -2,7 +2,7 @@ import React from "react";
 import styles, { layout } from "../styles/style";
 import { useTranslation } from "react-i18next";
 
-function FeatureCard(icon, title, content, index, featuresLength) {
+const FeatureCard = ({ icon, title, content, index, featuresLength }) => (
   <div
     className={`flex flex-row ss:p-5 rounded-[20px] ${
       index !== featuresLength - 1 ? "mb-6" : "mb-0"
@@ -19,11 +19,11 @@ function FeatureCard(icon, title, content, index, featuresLength) {
         {content}
       </p>
     </div>
-  </div>;
-}
+  </div>
+);
 
-function Business() {
-  const { t, _, ready } = useTranslation();
+const Business = () => {
+  const { t, ready } = useTranslation();
   if (!ready) return "loading translations...";
   const features = t("features", { returnObjects: true });
 
@@ -31,19 +31,14 @@ function Business() {
     <section id="features" className={layout.section}>
       <div className={layout.sectionInfo}>
         <h2 className={`${styles.heading2}`}>
-          Who are <span className="text-gradient">we</span>?
+          {t("business.heading")}{" "}
+          <span className="text-gradient">{t("business.subheading")}</span>
         </h2>
         <p className={`${styles.paragraph} md:max-w-[470px] mt-5`}>
-          We are a small but passionate Portuguese team of technology artists
-          who believe that creativity knows no bounds. Our mission is simple: to
-          turn your most ambitious ideas into tangible reality through the magic
-          of 3D printing.
+          {t("business.paragraph1")}
         </p>
         <p className={`${styles.paragraph} md:max-w-[470px] mt-5`}>
-          We don't just print on demand—we actively collaborate with you,
-          guiding your vision every step of the way. At the heart of everything
-          we do is a deep love for transforming what seems impossible into
-          something real, tangible, and beautiful.
+          {t("business.paragraph2")}
         </p>
       </div>
       <div className={`${layout.sectionImg} flex-col`}>
