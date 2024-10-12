@@ -1,0 +1,34 @@
+.flags-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px; /* Initial width for collapsed state */
+  height: 40px; /* Initial height for collapsed state */
+  position: relative;
+  cursor: pointer;
+  transition: width 0.3s ease, height 0.3s ease;
+  overflow: hidden; /* Hide any extra content */
+}
+
+.flags-container:hover {
+  width: 100px; /* Expand on hover */
+  height: 40px; /* Keep the height the same */
+}
+
+.flag-icon {
+  width: 30px; /* Icon size */
+  height: 30px; /* Icon size */
+  margin: 0 5px; /* Spacing between the icons */
+  transition: transform 0.3s ease;
+}
+
+.flag-icon:hover {
+  transform: scale(1.1); /* Slightly enlarge on hover for effect */
+  transition: transform 0.3s ease;
+}
+
+.flag-icon img {
+  width: 100%; /* Ensure the image fits the container */
+  height: 100%;
+  object-fit: contain; /* Maintain aspect ratio */
+}

@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { close, logo, menu } from "../assets";
 import { navLinks, externalLinks } from "../constants";
+import { I18n } from "./i18n";
 
 const Navbar = () => {
   const [toggle, setToggle] = useState(false);
@@ -9,7 +10,9 @@ const Navbar = () => {
     <nav className="w-full flex nav-style justify-between items-center navbar">
       <div className="flex">
         <img src={logo} alt="bananafrog" className="w-[40px] h-[40px] logo" />
-        <a className="text-white font-poppins ml-5 mt-2 logo-text">BananaFrog3D</a>
+        <a className="text-white font-poppins ml-5 mt-2 logo-text">
+          BananaFrog3D
+        </a>
       </div>
       <ul className="list-none sm:flex hidden justify-end items-center flex-1">
         {navLinks.map((nav, i) => (
@@ -70,6 +73,9 @@ const Navbar = () => {
           </ul>
         </div>
       </div>
+
+      {/* Choose Language */}
+      <I18n></I18n>
     </nav>
   );
 };

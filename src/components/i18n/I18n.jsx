@@ -1,7 +1,6 @@
 import React from 'react'
 import { useTranslation } from 'react-i18next'
-
-import { PTFlag, EuaFlag } from 'assets'
+import { ptFlag, usaFlag } from '../../assets'
 import Flag from './Flag'
 
 const I18n = () => {
@@ -15,12 +14,12 @@ const I18n = () => {
   return (
     <div className="flags-container">
       <Flag
-        image={PTFlag}
+        image={ptFlag}
         isSelected={selectedLanguage === 'pt-PT'}
         onClick={() => handleChangeLanguage('pt-PT')}
       />
       <Flag
-        image={EuaFlag}
+        image={usaFlag}
         isSelected={selectedLanguage === 'en-US'}
         onClick={() => handleChangeLanguage('en-US')}
       />

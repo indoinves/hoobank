@@ -16,7 +16,7 @@ import {
   Products,
 } from "./components";
 import styles from "./styles/style";
-import './components/i18n'; 
+import './i18n'; 
 
 // Wrapper component
 const Wrapper = ({ children }) => {
