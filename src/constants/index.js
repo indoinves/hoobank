@@ -1,4 +1,4 @@
-import { peoplerandom, instagram, eco, speed, gear, origamiVase, rasenVase, simpleVase } from "../assets";
+import { instagram } from "../assets";
 
 export const navLinks = [
   {

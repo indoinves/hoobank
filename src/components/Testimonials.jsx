@@ -1,19 +1,18 @@
 import React from "react";
-import { feedback } from "../constants";
 import styles from "../styles/style";
+import { useTranslation } from "react-i18next";
 import Feedback from "./Feedback";
 
-const Testimonials = () => {
+function Testimonials() {
+  const { t, _, ready } = useTranslation();
+  if (!ready) return "loading translations...";
+  const feedback = t("feedback", { returnObjects: true });
+
   return (
-    <section
-      id="clients"
-      className={`${styles.flexce} flex-col relative`}
-    >
+    <section id="clients" className={`${styles.flexce} flex-col relative`}>
       <div className="absolute z-[0] w-[60%] h-[60%] -right-[50%] rounded-full blue__gradient bottom-40" />
       <div className="w-full flex justify-between items-center md:flex-row flex-col sm:mb-16 mb-6 relative z-[1]">
-        <h2 className={styles.heading2}>
-          What people say about us
-        </h2>
+        <h2 className={styles.heading2}>What people say about us</h2>
       </div>
       <div className="flex flex-wrap justify-center w-full feedback-contrainer relative z-[1]">
         {feedback.map((card) => (
@@ -22,6 +21,6 @@ const Testimonials = () => {
       </div>
     </section>
   );
-};
+}
 
 export default Testimonials;

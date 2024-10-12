@@ -1,10 +1,15 @@
 import React from "react";
 import styles from "../styles/style";
 import { logo } from "../assets";
-import { footerLinks, socialMedia } from "../constants";
+import { socialMedia } from "../constants";
 import { Link } from "react-router-dom";
+import { useTranslation } from "react-i18next";
 
-const Footer = () => {
+function Footer() {
+  const { t, _, ready } = useTranslation();
+  if (!ready) return "loading translations...";
+  const footerLinks = t("footerLinks", { returnObjects: true });
+
   return (
     <section className={`${styles.flexCenter} ${styles.paddingY} flex-col`}>
       <div className={`${styles.flexStart} md:flex-row flex-col mb-8 w-full`}>
@@ -64,6 +69,6 @@ const Footer = () => {
       </div>
     </section>
   );
-};
+}
 
 export default Footer;

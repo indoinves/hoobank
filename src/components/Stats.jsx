@@ -1,13 +1,17 @@
 import React from "react";
-import { stats } from "../constants";
+import { useTranslation } from "react-i18next";
 import styles from "../styles/style";
 
-const Stats = () => {
+function Stats() {
+  const { t, _, ready } = useTranslation();
+  if (!ready) return "loading translations...";
+  const statistics = t("stats", { returnObjects: true });
+
   return (
     <section
       className={`${styles.flexCenter} flex-row flex-wrap sm:mb-20 mb-6`}
     >
-      {stats.map((stat) => (
+      {statistics.map((stat) => (
         <div
           key={stat.id}
           className={`flex-1 flex justify-center items-center flex-row m-3`}
@@ -22,6 +26,6 @@ const Stats = () => {
       ))}
     </section>
   );
-};
+}
 
 export default Stats;
