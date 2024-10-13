@@ -1,8 +1,13 @@
 import React from "react";
-import { clients } from "../constants";
 import styles from "../styles/style";
+import { useTranslation } from "react-i18next";
 
-const Clients = () => {
+const Clients= () =>  {
+  const { t, _, ready } = useTranslation();
+  if (!ready) return "loading translations...";
+  // TODO: Replace with client key when this is in use
+  const clients = [];
+
   return (
     <section className={`${styles.flexCenter} my-4`}>
       <div className={`${styles.flexCenter} flex-wrap w-full`}>
@@ -21,6 +26,6 @@ const Clients = () => {
       </div>
     </section>
   );
-};
+}
 
 export default Clients;

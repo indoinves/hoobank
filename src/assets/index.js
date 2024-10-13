@@ -15,6 +15,8 @@ import peoplerandom from "./peoplerandom.png"
 import simpleVase from "./product_imgs/simple_vase.png";
 import rasenVase from "./product_imgs/rasen_vase.png";
 import origamiVase from "./product_imgs/origami_vase.png";
+import usaFlag from "./flags/usa_flag.png";
+import ptFlag from "./flags/pt_flag.png";
 
 export {
   printer,
@@ -33,5 +35,7 @@ export {
   peoplerandom,
   simpleVase,
   rasenVase,
-  origamiVase
+  origamiVase,
+  usaFlag,
+  ptFlag
 };

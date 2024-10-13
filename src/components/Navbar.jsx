@@ -1,15 +1,23 @@
 import React, { useState } from "react";
 import { close, logo, menu } from "../assets";
-import { navLinks, externalLinks } from "../constants";
+import { I18n } from "./i18n";
+import { useTranslation } from 'react-i18next';
 
 const Navbar = () => {
   const [toggle, setToggle] = useState(false);
+  const { t, _, ready } = useTranslation();
+  if (!ready) return "loading translations...";
+
+  const navLinks = t('navLinks', { returnObjects: true });
+  const externalLinks = t('externalLinks', { returnObjects: true });
 
   return (
     <nav className="w-full flex nav-style justify-between items-center navbar">
       <div className="flex">
         <img src={logo} alt="bananafrog" className="w-[40px] h-[40px] logo" />
-        <a className="text-white font-poppins ml-5 mt-2 logo-text">BananaFrog3D</a>
+        <a className="text-white font-poppins ml-5 mt-2 logo-text">
+          BananaFrog3D
+        </a>
       </div>
       <ul className="list-none sm:flex hidden justify-end items-center flex-1">
         {navLinks.map((nav, i) => (
@@ -43,7 +51,7 @@ const Navbar = () => {
         <div
           className={`${
             toggle ? "flex" : "hidden"
-          } p-6 bg-black-gradient absolute top-20 right-0 mx-4 my-2 min-w-[140px] rounded-xl sidebar`}
+          } sidebar p-6 bg-black-gradient absolute top-20 right-0 mx-4 my-2 min-w-[140px] rounded-xl sidebar`}
         >
           <ul className="list-none flex flex-col justify-end items-center flex-1">
             {navLinks.map((nav, i) => (
@@ -70,6 +78,9 @@ const Navbar = () => {
           </ul>
         </div>
       </div>
+
+      {/* Choose Language */}
+      <I18n></I18n>
     </nav>
   );
 };
