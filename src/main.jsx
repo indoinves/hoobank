@@ -6,7 +6,7 @@ import './styles/tables.css'
 import './styles/discounts.css'
 import './styles/images.css'
 import './styles/landing-page.css'
-import './styles/flags_container.css'
+import './styles/language_switcher.css'
 
 
 ReactDOM.createRoot(document.getElementById('root')).render(
