@@ -3,7 +3,7 @@ import styles from "../styles/style";
 import { useTranslation } from "react-i18next";
 import Product from "./Product";
 
-function Testimonials() {
+const Testimonials = () =>  {
   const { t, _, ready } = useTranslation();
   if (!ready) return "loading translations...";
   const products = t("products", { returnObjects: true });

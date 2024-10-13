@@ -1,7 +1,5 @@
 import React from "react";
 import { useTranslation } from "react-i18next";
-import { ptFlag, usaFlag } from "../../assets";
-import Flag from "./Flag";
 
 const I18n = () => {
   const { i18n } = useTranslation();

@@ -3,7 +3,7 @@ import styles from "../styles/style";
 import { useTranslation } from "react-i18next";
 import Feedback from "./Feedback";
 
-function Testimonials() {
+const Testimonials = () =>  {
   const { t, ready } = useTranslation();
   if (!ready) return "Carregando traduções..."; // Loading translations message in Portuguese
   

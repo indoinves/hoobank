@@ -2,7 +2,7 @@ import React from "react";
 import styles from "../styles/style";
 import { useTranslation } from "react-i18next";
 
-function Clients() {
+const Clients= () =>  {
   const { t, _, ready } = useTranslation();
   if (!ready) return "loading translations...";
   // TODO: Replace with client key when this is in use

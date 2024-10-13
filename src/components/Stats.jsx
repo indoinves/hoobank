@@ -2,7 +2,7 @@ import React from "react";
 import { useTranslation } from "react-i18next";
 import styles from "../styles/style";
 
-function Stats() {
+const Stats = () =>  {
   const { t, _, ready } = useTranslation();
   if (!ready) return "loading translations...";
   const statistics = t("stats", { returnObjects: true });

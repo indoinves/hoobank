@@ -4,7 +4,7 @@ import { logo } from "../assets";
 import { Link } from "react-router-dom";
 import { useTranslation } from "react-i18next";
 
-function Footer() {
+const Footer = () =>  {
   const { t, _, ready } = useTranslation();
   if (!ready) return "loading translations...";
   const footerLinks = t("footer.footerLinks", { returnObjects: true });
