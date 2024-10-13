@@ -168,27 +168,38 @@ export default {
         value: "5",
       },
     ],
-    footerLinks: [
-      {
-        title: "Useful Links",
-        links: [
-          {
-            id: "footer-link-1",
-            name: "Terms & Conditions",
-            link: "terms",
-          },
-          {
-            id: "footer-link-2",
-            name: "Privacy Policy",
-            link: "privacy-policy",
-          },
-          {
-            id: "footer-link-3",
-            name: "Cookie Policy",
-            link: "cookie-policy",
-          },
-        ],
-      },
-    ],
+    footer: {
+      slogan: "A new way to print 3D models. Your way.",
+      copyright: "2024 BananaFrog 3D. All Rights Reserved.",
+      footerLinks: [
+        {
+          title: "Links",
+          links: [
+            {
+              id: "footer-link-1",
+              name: "Terms & Conditions",
+              link: "terms",
+            },
+            {
+              id: "footer-link-2",
+              name: "Privacy Policy",
+              link: "privacy-policy",
+            },
+            {
+              id: "footer-link-3",
+              name: "Cookie Policy",
+              link: "cookie-policy",
+            },
+          ],
+        },
+      ],
+      socialMedia: [
+        {
+          id: "social-media-1",
+          icon: "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Instagram_icon.png/1200px-Instagram_icon.png",
+          link: "https://www.instagram.com/bananafrog3d/",
+        },
+      ]
+    },
   },
 };
