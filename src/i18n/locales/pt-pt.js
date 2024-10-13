@@ -316,6 +316,78 @@ export default {
         link: "https://www.livroreclamacoes.pt/inicio",
       },
     },
-    
+    privacyPolicy: {
+      title: "Política de privacidade",
+      intro: {
+        text: `Esquilo Tranquilo Lda, que opera comercialmente como Banana Frog 3D, com sede na Rua Leopoldo de Almeida, 30, 2750-035, Cascais, Cascais e Estoril, pessoa coletiva número 518178420, é detentora do presente website. A utilização do www.bananafrog3d.com reconhece os termos e condições gerais abaixo enumerados e descritos. A sua aceitação é absolutamente indispensável à utilização dos serviços e informações aqui prestados. Caso não concorde com os mesmos, deverá cessar imediatamente a utilização deste Website.
+          www.bananafrog3d.com é um site que pretende promover serviços relacionados com a modelação e impressão de objectos 3D.
+          À Banana Frog 3D reserva-se o direito de, a qualquer momento, sem necessidade de aviso prévio e com efeitos imediatos, alterar, adicionar, atualizar, eliminar, parcial ou totalmente, os presentes Termos e Condições de Utilização e Política de Privacidade. Garantindo, em qualquer circunstância, a qualidade, segurança, legalidade, veracidade e exatidão das informações dos respetivos imóveis e ofertas no website publicados. O utilizador deve consultar periodicamente a página destes Termos e condições de utilização e Política de Privacidade para confirmar se foram efetuadas quaisquer atualizações ou alterações. Caso não concorde com alguma destas não deve utilizar o presente Website.`,
+      },
+      websiteUse: {
+        title: "Utilização do Website",
+        text: "Os Utilizadores que visitam o Website podem aceder e ler todo o conteúdo contido no mesmo, sem necessidade de registar dados ou informações pessoais. Este Website, ou qualquer um dos nossos serviços, não deverá ser utilizado:",
+        list: [
+          "- Por qualquer razão ou finalidade que seja ilegal, difamatória, ofensiva, prejudicial, abusiva, invasiva da privacidade de outrem ou censurável;",
+          "- De forma que possa prejudicar ou interromper este Website ou qualquer um dos nossos serviços, ou a utilização pacífica por parte de outros utilizadores;",
+          "- Para transmitir vírus ou outra codificação maliciosa que possam danificar ou perturbar equipamento ou sistema informático (hardware ou software) ou equipamento de telecomunicações;",
+          "- De forma que possa ofender outrem ou prejudicar a Banana Frog 3D, designadamente, enviar ou disponibilizar qualquer conteúdo ilegal, falso, enganoso, ameaçador, maldoso, abusivo, difamatório, injurioso, invasivo da privacidade, prejudicial ou ainda que possa afetar negativamente a imagem ou atividade da Banana Frog 3D;",
+          "- Para promover qualquer tipo de atividade comercial, ou enviar ou disponibilizar informação ou conteúdos que pertencem a terceiros e que não tem o direito de utilizar, como, por exemplo, conteúdos protegidos por direitos de autor de terceiros ou conteúdos que contenham dados pessoais de terceiros.",
+        ],
+        general:
+          "Em geral, o Utilizador deve utilizar o Website de forma responsável, prudente e cuidadosa, não devendo perturbar ou danificar a continuidade ou integridade do mesmo. A Banana Frog 3D não é responsável por quaisquer danos diretos, indiretos e ou negligentes decorrente do uso da informação contida neste Website ou do próprio Website bem como da conduta prejudicial ou perturbadora do Utilizador.",
+      },
+      infoContent: {
+        title: "Informações e conteúdos deste website",
+        paragraphs: [
+          "Todos os conteúdos e informações publicados no presente website são da responsabilidade da Banana Frog 3D que zela pela veracidade e transparência dos mesmos. Esforçando-se para oferecer informações úteis, atualizadas e ajustadas à realidade. No entanto, a mesma pode não estar correta ou completamente atualizada. Neste sentido, não nos podemos responsabilizar por quaisquer ações tomadas como resultado de ou com base nas informações contidas ou fornecidas por este Website, seja numa ação de contrato, negligência ou outra ação ilícita. Através bananafrog@bananafrog3d.com poderá sempre enviar as suas sugestões ou erratas.",
+          "À Banana Frog 3D está reservado o direito de mover, alterar, excluir o Website, ou conteúdo do mesmo (incluindo o conteúdo de utilizadores registados, se o caso), a qualquer momento e por qualquer motivo. Deve, portanto, manter uma cópia de qualquer conteúdo que enviar para o Website, que deseje manter. Depois de ter carregado o conteúdo, pode optar por excluir o conteúdo a qualquer momento.",
+          "Caso deseje reportar as suas preocupações relativas a qualquer conteúdo disponível neste site, por favor, envie um e-mail diretamente para bananafrog@bananafrog3d.com.",
+        ],
+      },
+      hyperlinks: {
+        title: "Utilização de Hyperlinks",
+        paragraphs: [
+          "O conteúdo deste Website pode incluir Hyperlinks (hiperligações) para outros Sites que não são operados pela Banana Frog 3D. A Banana Frog 3D não é responsável pelo conteúdo de qualquer outro Website, incluindo aqueles que deem acesso ao presente ou cujo acesso tenha sido conseguido através do nosso Website.",
+          "A Banana Frog 3D não endossa quaisquer Sites vinculados ou os produtos/serviços que são fornecidos nesses Sites. Os conteúdos nos sites vinculados podem mudar ao longo do tempo. Recomenda-se a verificação dos termos e políticas dos Sites vinculados.",
+          "Ao fornecer neste Website um hyperlink para um Website externo, a Banana Frog 3D fá-lo na boa-fé de que este contenha ou possa conter informações relevantes adicionais às apresentadas no seu próprio Website. A existência desse hyperlink não implica nem pressupõe a sua revisão e aprovação por parte da Banana Frog 3D- em determinadas instâncias, um hyperlink poderá levá-lo a aceder a um Website que apresente informação contraditória à apresentada no nosso Website ou a outro pertencente à Banana Frog 3D ou às suas subsidiárias."
+        ],
+      },
+      responsibilityContacts: {
+        title: "A Nossa Responsabilidade e Contactos",
+        paragraphs: [
+          "A Banana Frog 3D não é responsável, por perdas ou danos diretos, indiretos ou específicos ou quaisquer outras consequências provenientes do acesso ou utilização deste Website, nem de qualquer informação no mesmo contida. Não obstante, estamos disponíveis para discutir com o utilizador as implicações de qualquer questão que venha a surgir, devendo contactar-nos através do nosso site em www.bananafrog3d.com (contactos), através da morada Rua Leopoldo de Almeida, 30, 2750-035 Cascais, Cascais e Estoril, ou através do endereço de e-mail bananafrog@bananafrog3d.com.",
+          "Ao aceder à nossa área de contacto, o utilizador estará a aceitar que a informação que nos presta, através desse contacto, passará a ser detida pela Banana Frog 3D, que a poderá utilizar nos termos que entender mais adequados, não havendo lugar, em situação alguma, a qualquer direito ou pagamento a seu favor por essa utilização.",
+          "Até ao limite máximo permitido por lei, todas as garantias, explícitas ou implícitas, encargos ou avais, representações e outros termos e condições de qualquer tipo relacionada com este Website ou matéria não contida nestes Termos e Condições estão expressamente excluídas.",
+          "Nada nestes Termos de Utilização e Política de Privacidade exclui, restringe ou modifica qualquer direito ou recurso, ou quaisquer garantias, ou outro termo ou condição, implícita ou impostas por qualquer legislação que não possam ser legalmente excluídas ou limitadas. Isso pode incluir a legislação referente aos direitos do Consumidor, em território Português, que contém garantias que protegem os Consumidores de bens e serviços em determinadas circunstâncias.",
+          "A responsabilidade de uma parte para com outra parte é reduzida na medida em que os atos ou omissões da outra parte, ou aqueles de uma terceira parte, contribuem para ou causam tal responsabilidade.",
+          "Apesar de desenvolvermos as correspondentes ações para manter este Website livre de vírus informáticos ou outra codificação danosa, não podemos garantir que este seja o caso. Deverá, portanto, utilizar um software de segurança, atualizado a todo o tempo, para proteger o seu computador de tais softwares maliciosos.",
+          "Apesar de desenvolvermos todos os esforços comerciais razoáveis para manter este Website disponível, não garantimos que o mesmo esteja acessível ou disponível numa base temporal constante ou que o acesso não seja interrompido ou isento de erros.",
+          "A Banana Frog 3D é a entidade responsável pela recolha e tratamento de dados pessoais. Respeita a privacidade de todos os utilizadores e compromete-se em proteger todas as informações submetidas por cada utilizador em conformidade com a legislação nacional e comunitária em vigor.",
+          "Todos os utilizadores podem navegar neste website sem a obrigatoriedade de efetuar ou submeter qualquer registo de dados. Quando submete os seus dados, caso pretenda receber novidades, campanhas ou outros associados a imóveis ou aos nossos serviços além das comunicações comerciais por si solicitadas pedimos que concorde com o envio da mesma.",
+          "O fornecimento de dados pessoais apenas é necessário no caso de pretender efetuar uma marcação de visita, um pedido de informações ou pedido de contacto e será sempre garantido, nos termos da lei, o direito de acesso, retificação e anulação de qualquer dado fornecido, podendo aquele direito ser exercido por escrito, a qualquer momento, através do e-mail bananafrog@bananafrog3d.com ou clicando no link de cessação da subscrição, na parte inferior do e-mail."
+        ],
+      },
+      dataRegistration: {
+        title: "Registo de dados",
+        paragraphs: [
+          "Os dados pessoais de cada utilizador serão mantidos enquanto a subscrição e/ou pedidos do utilizador estiverem ativos, com o objetivo de melhorar os serviços oferecidos, pelo que após a sua caducidade serão despersonalizados e não identificáveis. É-lhe permitido questionar os dados e poderá solicitar a eliminação dos dados, retificação, atualização ou completar os mesmos. Estes pedidos devem ser encaminhados para bananafrog@bananafrog3d.com.",
+          "Recolhemos informação pessoal, via o preenchimento voluntário dos devidos formulários dispostos para marcação de visitas, pedidos de informações sobre imóveis ou serviços e pedidos de contacto.",
+          "Ao contactar-nos através de e-mail, subscrever informações grátis, obriga-nos à recolha do seu endereço de e-mail, nome e outros dados específicos de identificação pessoal, traduzidos normalmente pelo nome e número de contacto.",
+          "Ao pedir dados pessoais sensíveis, assegurar-nos-emos que a sua recolha e utilização será feita no rigoroso cumprimento da legislação aplicável à recolha e proteção de dados. Se pretendermos utilizar os seus dados pessoais para além dos fins estabelecidos inicialmente, pediremos o seu consentimento. Poderá escolher antecipadamente dar esse consentimento aquando da recolha inicial de dados."
+        ],
+      },
+      automaticDataCollection: {
+        title: "Dados recolhidos automaticamente",
+        text: "Os domínios e endereços de IP dos visitantes são registados automaticamente. Esta informação não identifica o utilizador, mas apenas o computador utilizado no acesso ao site. Estes dados são analisados a nível global para verificar em que local do mundo é que o site está a ser utilizado, de forma a assegurar a sua cobertura, permitindo que o nosso serviço ao utilizador possa ser melhorado. Os dados pessoais de cada utilizador não são objeto de recolha e análise neste processo."
+      },
+      dataRetention: {
+        title: "Retenção de dados",
+        text: "Os dados serão mantidos enquanto a subscrição do utilizador estiver ativa, com o objetivo de melhorar os serviços oferecidos, pelo que após a sua caducidade serão despersonalizados e não identificáveis. Apenas serão recolhidas informações adicionais acerca do utilizador para além das mencionadas acima para efeitos contratuais adjacentes aos serviços prestados."
+      },
+      accessData: {
+        title: "Acesso aos dados pessoais",
+        text: "Para solicitar esclarecimentos acerca do acesso aos dados pessoais, ou para o esclarecimento de questões relacionadas com a política de privacidade de dados, praticada na Banana Frog 3D, contacte-nos através do e-mail bananafrog@bananafrog3d.com, ou utilize o seguinte endereço postal: Rua Leopoldo de Almeida, 30, 2750-035 Cascais. Fornecer-lhe-emos uma cópia dos dados pessoais que dispomos sobre si num prazo máximo de 40 dias, a contar do seu pedido feito para este site; para este fim, ser-lhe-á exigida uma prova de identificação. É-lhe permitido questionar os dados e, onde apropriado, poderá: apagar os dados, retificá-los, emendá-los ou completá-los. Reservamo-nos ao direito de recusa de fornecimento da cópia dos dados pessoais do utilizador, obrigando-nos a apresentar uma justificação para essa decisão. O utilizador poderá contestar a nossa decisão de recusa de fornecimento de cópia com os seus dados pessoais.",
+      },
+    },
   },
 };
