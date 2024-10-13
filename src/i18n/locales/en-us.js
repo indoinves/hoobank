@@ -213,6 +213,9 @@ export default {
         },
       ],
     },
+    testimonials: {
+      title: "Choose your Favourite"
+    },
     terms: {
       websiteUsageTitle: "Website Usage",
       websiteUsageContent:
