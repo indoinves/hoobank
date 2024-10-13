@@ -1,10 +1,15 @@
 import React, { useState } from "react";
 import { close, logo, menu } from "../assets";
-import { navLinks, externalLinks } from "../constants";
 import { I18n } from "./i18n";
+import { useTranslation } from 'react-i18next';
 
 const Navbar = () => {
   const [toggle, setToggle] = useState(false);
+  const { t, _, ready } = useTranslation();
+  if (!ready) return "loading translations...";
+
+  const navLinks = t('navLinks', { returnObjects: true });
+  const externalLinks = t('externalLinks', { returnObjects: true });
 
   return (
     <nav className="w-full flex nav-style justify-between items-center navbar">

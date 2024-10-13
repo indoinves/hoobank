@@ -11,6 +11,18 @@ import {
 export default {
   // Same value used for defaultNS
   translations: {
+    navLinks: [
+      {
+        id: "home",
+        title: "Início",
+      },
+    ],
+    externalLinks: [
+      {
+        id: "products",
+        title: "Produtos",
+      },
+    ],
     headline: {
       part1: "Transformar",
       part2: "Ideias",
