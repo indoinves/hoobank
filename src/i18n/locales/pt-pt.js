@@ -211,7 +211,36 @@ export default {
           icon: "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Instagram_icon.png/1200px-Instagram_icon.png",
           link: "https://www.instagram.com/bananafrog3d/",
         },
-      ]
+      ],
+    },
+    terms: {
+      websiteUsageTitle: "Utilização do Website",
+      websiteUsageContent:
+        "Os Utilizadores que visitam o Website podem aceder e ler todo o conteúdo contido no mesmo, sem necessidade de registar dados ou informações pessoais. No entanto, apenas os utilizadores registados ou com a submissão de formulários preenchidos para pedidos de contactos comerciais serão contactados e informados sobre os serviços disponíveis através do endereço eletrónico ou telefone previamente submetidos em formulários próprios. Receberão atualizações e informações sobre os serviços disponíveis na Banana Frog 3D, no caso de terem previamente aceite no respetivo registo ou formulário submetido, comunicação para esse efeito.",
+      usageRestrictionsTitle:
+        "Este Website, ou qualquer um dos nossos serviços, não deverá ser utilizado:",
+      usageRestrictionsList: [
+        "- Por qualquer razão ou finalidade que seja ilegal, difamatória, ofensiva, prejudicial, abusiva, invasiva da privacidade de outrem ou censurável;",
+        "- De forma que possa prejudicar ou interromper este Website ou qualquer um dos nossos serviços, ou a utilização pacífica por parte de outros utilizadores;",
+        "- Para transmitir vírus ou outra codificação maliciosa que possam danificar ou perturbar equipamento ou sistema informático (hardware ou software) ou equipamento de telecomunicações;",
+        "- De forma que possa ofender outrem ou prejudicar a Banana Frog 3D, designadamente, enviar ou disponibilizar qualquer conteúdo ilegal, falso, enganoso, ameaçador, maldoso, abusivo, difamatório, injurioso, invasivo da privacidade, prejudicial ou ainda que possa afetar negativamente a imagem ou atividade da Banana Frog 3D;",
+        "- Para promover qualquer tipo de atividade comercial, ou enviar ou disponibilizar informação ou conteúdos que pertencem a terceiros e que não tem o direito de utilizar, como, por exemplo, conteúdos protegidos por direitos de autor de terceiros ou conteúdos que contenham dados pessoais de terceiros.",
+      ],
+      generalUsage:
+        "Em geral, o Utilizador deve utilizar o Website de forma responsável, prudente e cuidadosa, não devendo perturbar ou danificar a continuidade ou integridade do mesmo.",
+      disclaimer:
+        "A Banana Frog 3D não é responsável por quaisquer danos diretos, indiretos e ou negligentes decorrente do uso da informação contida neste Website ou do próprio Website bem como da conduta prejudicial ou perturbadora do Utilizador.",
+      informationContentTitle: "Informações e conteúdos deste Website",
+      informationContent:
+        "Todos os conteúdos e informações publicados no presente website são da responsabilidade da Banana Frog 3D que zela pela veracidade e transparência dos mesmos. Esforçando-se para oferecer informações úteis, atualizadas e ajustadas à realidade. No entanto, a mesma pode não estar correta ou completamente atualizada. Neste sentido, não nos podemos responsabilizar por quaisquer ações tomadas como resultado de ou com base nas informações contidas ou fornecidas por este Website, seja numa ação de contrato, negligência ou outra ação ilícita. Através bananafrog@bananafrog3d.com poderá sempre enviar as suas sugestões ou erratas.",
+      contentChange:
+        "À Banana Frog 3D está reservado o direito de mover, alterar, excluir o Website, ou conteúdo do mesmo (incluindo o conteúdo de utilizadores registados, se o caso), a qualquer momento e por qualquer motivo. Deve, portanto, manter uma cópia de qualquer conteúdo que enviar para o Website, que deseje manter. Depois de ter carregado o conteúdo, pode optar por excluir o conteúdo a qualquer momento.",
+      reportConcern:
+        "Caso deseje reportar as suas preocupações relativas a qualquer conteúdo disponível neste site, por favor, envie um e-mail diretamente para bananafrog@bananafrog3d.com.",
+      hyperlinksTitle: "Utilização de Hyperlinks",
+      hyperlinksContent1: "O conteúdo deste Website pode incluir Hyperlinks (hiperligações) para outros Sites que não são operados pela Banana Frog 3D. A Banana Frog 3D não é responsável pelo conteúdo de qualquer outro Website, incluindo aqueles que dêem acesso ao presente ou cujo acesso tenha sido conseguido através do nosso Website.",
+      hyperlinksContent2: "A Banana Frog 3D não endossa quaisquer Sites vinculados ou os produtos/serviços que são fornecidos nesses Sites. Os conteúdos nos sites vinculados podem mudar ao longo do tempo. Recomenda-se a verificação dos termos e políticas dos Sites vinculados.",
+      hyperlinksContent3: "Ao fornecer neste Website um hyperlink para um Website externo, a Banana Frog 3D fá-lo na boa-fé de que este contenha ou possa conter informações relevantes adicionais às apresentadas no seu próprio Website. A existência desse hyperlink não implica nem pressupõe a sua revisão e aprovação por parte da Banana Frog 3D- em determinadas instâncias, um hyperlink poderá levá-lo a aceder a um Website que apresente informação contraditória à apresentada no nosso Website ou a outro pertencente à Banana Frog 3D ou às suas subsidiárias.",
     },
   },
 };
