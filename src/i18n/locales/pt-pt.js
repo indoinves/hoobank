@@ -24,7 +24,7 @@ export default {
       },
     ],
     headline: {
-      part1: "Transformar",
+      part1: "Transforme",
       part2: "Ideias",
       part3: "em",
       part4: "Realidade",
@@ -106,7 +106,7 @@ export default {
       description:
         "Experimente soluções de impressão 3D personalizadas. Envie-nos o seu design, escolha o tipo de material e a nossa equipa tratara do resto. As nossas impressões são de alta qualidade e adaptadas às suas necessidades.",
       table: {
-        header: ["Cores", "Maleabilidade", "Qualidade", "Custo"],
+        header: ["Cor", "Elasticidade", "Qualidade", "Custo"],
         rows: [
           {
             name: "PLA",
@@ -213,8 +213,11 @@ export default {
         },
       ],
     },
-    testimonials: {
+    product_title: {
       title: "Escolha o seu Favorito"
+    },
+    product: {
+      size_title: "Tamanhos"
     },
     terms: {
       websiteUsageTitle: "Utilização do Website",

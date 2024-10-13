@@ -13,7 +13,7 @@ const Testimonials = () =>  {
       <div className="absolute z-[0] md:w-[60%] md:h-[60%] md:-right-[50%] rounded-full blue__gradient md:bottom-40" />
       <div className="w-full flex justify-between items-center md:flex-row flex-col sm:mb-16 mb-6 relative z-[1]">
         <h2 className={`${styles.heading2} mt-10`}>
-          {t("testimonials.title")}
+          {t("product_title.title")}
         </h2>
       </div>
       <div className="flex flex-wrap justify-center w-full feedback-contrainer relative z-[1]">

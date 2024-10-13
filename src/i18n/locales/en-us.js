@@ -213,8 +213,11 @@ export default {
         },
       ],
     },
-    testimonials: {
+    product_title: {
       title: "Choose your Favourite"
+    },
+    product: {
+      size_title: "Sizes"
     },
     terms: {
       websiteUsageTitle: "Website Usage",
