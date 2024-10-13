@@ -238,9 +238,84 @@ export default {
       reportConcern:
         "Caso deseje reportar as suas preocupações relativas a qualquer conteúdo disponível neste site, por favor, envie um e-mail diretamente para bananafrog@bananafrog3d.com.",
       hyperlinksTitle: "Utilização de Hyperlinks",
-      hyperlinksContent1: "O conteúdo deste Website pode incluir Hyperlinks (hiperligações) para outros Sites que não são operados pela Banana Frog 3D. A Banana Frog 3D não é responsável pelo conteúdo de qualquer outro Website, incluindo aqueles que dêem acesso ao presente ou cujo acesso tenha sido conseguido através do nosso Website.",
-      hyperlinksContent2: "A Banana Frog 3D não endossa quaisquer Sites vinculados ou os produtos/serviços que são fornecidos nesses Sites. Os conteúdos nos sites vinculados podem mudar ao longo do tempo. Recomenda-se a verificação dos termos e políticas dos Sites vinculados.",
-      hyperlinksContent3: "Ao fornecer neste Website um hyperlink para um Website externo, a Banana Frog 3D fá-lo na boa-fé de que este contenha ou possa conter informações relevantes adicionais às apresentadas no seu próprio Website. A existência desse hyperlink não implica nem pressupõe a sua revisão e aprovação por parte da Banana Frog 3D- em determinadas instâncias, um hyperlink poderá levá-lo a aceder a um Website que apresente informação contraditória à apresentada no nosso Website ou a outro pertencente à Banana Frog 3D ou às suas subsidiárias.",
+      hyperlinksContent1:
+        "O conteúdo deste Website pode incluir Hyperlinks (hiperligações) para outros Sites que não são operados pela Banana Frog 3D. A Banana Frog 3D não é responsável pelo conteúdo de qualquer outro Website, incluindo aqueles que dêem acesso ao presente ou cujo acesso tenha sido conseguido através do nosso Website.",
+      hyperlinksContent2:
+        "A Banana Frog 3D não endossa quaisquer Sites vinculados ou os produtos/serviços que são fornecidos nesses Sites. Os conteúdos nos sites vinculados podem mudar ao longo do tempo. Recomenda-se a verificação dos termos e políticas dos Sites vinculados.",
+      hyperlinksContent3:
+        "Ao fornecer neste Website um hyperlink para um Website externo, a Banana Frog 3D fá-lo na boa-fé de que este contenha ou possa conter informações relevantes adicionais às apresentadas no seu próprio Website. A existência desse hyperlink não implica nem pressupõe a sua revisão e aprovação por parte da Banana Frog 3D- em determinadas instâncias, um hyperlink poderá levá-lo a aceder a um Website que apresente informação contraditória à apresentada no nosso Website ou a outro pertencente à Banana Frog 3D ou às suas subsidiárias.",
     },
+    cookie_policy: {
+      title: "Política de Cookies",
+      intro:
+        "Este website recorre ao uso de cookies para proporcionar uma melhor experiência de utilização aos seus visitantes, bem como para assegurar que o mesmo se encontra em pleno funcionamento.",
+      what_is_cookie: {
+        title: "O que é um cookie",
+        description1:
+          "De modo a disponibilizarmos um serviço personalizado e eficiente aos nossos utilizadores torna-se necessário memorizar e armazenar informação sobre a forma como este website deve ser utilizado. Para tal, utilizamos ficheiros de texto reduzido denominados por cookies que contêm quantidades de informação reduzidas descarregadas para o computador ou outros dispositivos dos nossos utilizadores através de um servidor. O seu browser de internet posteriormente envia, em cada visita subsequente, estas cookies de volta para o website, permitindo o reconhecimento e memorização da identidade dos nossos visitantes, designadamente as preferências de utilização dos nossos utilizadores. Poderá encontrar aqui informação mais detalhada sobre cookies e seu respetivo funcionamento. A navegação neste website permite a recolha de informação com recurso a cookies e demais tecnologias (ex. web beacons, tags, scripts, armazenamento local).",
+        description2:
+          "Esta Política de Cookies faz parte da nossa Declaração de Privacidade. Para mais informações sobre nós e sobre a forma como protegemos as informações dos utilizadores consulte a nossa Declaração de Privacidade.",
+      },
+      cookies_title: "Cookies que podemos utilizar e porquê",
+      cookies_description:
+        "Quando utilizamos cookies no nosso website, podemos colocá-los dentro de uma das seguintes categorias:",
+      cookies_we_may_use: [
+        "- Os “Cookies estritamente necessários” são necessários para que o website funcione e não podem ser desligados nos nossos sistemas. Normalmente, só são configurados em resposta a ações levadas a cabo por si e que correspondem a uma solicitação de serviços, tais como definir as suas preferências de privacidade, iniciar sessão ou preencher formulários.",
+        "- Os “Cookies de Analytics e desempenho” permitem-nos contar visitas e fontes de tráfego, para que possamos medir e melhorar o desempenho do nosso website. Podem ser configurados por nós ou por terceiros para nos ajudar a saber que páginas ou vídeos são os mais e menos populares e também para ver como os visitantes se movimentam pelo website.",
+        "- Os “Cookies Funcionais” permitem que o website forneça uma funcionalidade e personalização melhoradas com base na sua interação com o website. Podem ser configurados por nós ou terceiros, como a Adobe, cujos serviços adicionámos às nossas páginas.",
+        "- Os “Cookies de Publicidade e Targetização” podem ser configurados através do nosso website pelos nossos parceiros de publicidade, como a Adobe, Meta, LinkedIn e Google. Podem ser usados por essas empresas para construir um perfil sobre os seus interesses e mostrar-lhe anúncios relevantes noutros websites.",
+        "- Os “Cookies de Redes Sociais” são configurados por um conjunto de serviços das redes sociais que adicionámos ao website para permitir que possa partilhar o nosso conteúdo com os seus amigos e conhecidos. Estes cookies são capazes de rastrear a sua navegação por outros websites e criar um perfil sobre os seus interesses. Isso pode afetar o conteúdo e as mensagens que vê noutros websites que visita.",
+      ],
+      cookie_duration: {
+        title: "Quanto tempo ficam os cookies no meu dispositivo?",
+        description:
+          "O tempo que os cookies ficam no seu dispositivo depende se é um cookie “persistente” ou um cookie de “sessão”. Um cookie persistente irá ser armazenado num web browser e irá permanecer válido até à data de validade para o qual foi configurado, a não ser que o apague antes dessa data. Por outro lado, um cookie de sessão será apagado no fim da sua sessão web, quando o web browser for fechado.",
+      },
+      control_cookies: {
+        title: "Como controlar os cookies?",
+        description:
+          "Pode controlar e gerir cookies de múltiplas formas. Informamos os utilizadores que a remoção ou bloqueio dos cookies poderá afetar a sua experiência de utilização e poderá limitar o acesso a algumas zonas ou funcionalidades deste website. Onde os cookies não forem estritamente necessários para o funcionamento do nosso website, iremos pedir o seu consentimento para a nossa utilização de cookies na sua primeira visita ao nosso website. Poderá também alterar as definições do seu browser para gerir e controlar cookies. Pode encontrar informação mais detalhada sobre como o fazer em http://www.aboutcookies.org/. Qualquer consentimento para aceitar ou rejeitar cookies é limitado ao website onde esta Política de Cookies se encontra e não para outros websites ou páginas, que podem ter sido linkadas ao nosso website. Para mais informações sobre como cookies são utilizados por esses websites, por favor consulte as políticas de privacidade e de cookies específicas desses websites.",
+      },
+      email_communications: {
+        title: "Comunicações via Email",
+        description:
+          "Podemos também utilizar tecnologias de monitorização para determinar se os nossos visitantes leram, carregaram em links ou reencaminharam determinadas comunicações enviadas por nós através de email, com o objetivo de aferir a pertinência das nossas comunicações. Em caso de desacordo com esse modo de proceder os nossos utilizadores devem reverter a sua subscrição (unsubscribe) dado que não é possível enviar estes emails sem estes mecanismos de monitorização ativos. Os subscritores registados podem atualizar as suas preferências de comunicação a qualquer momento contactando-nos, ou podem cancelar a sua subscrição, seguindo as instruções no email de comunicação por nós enviado para o seu endereço eletrónico.",
+      },
+      changes: {
+        title: "Alterações à Política de Cookies",
+        description:
+          "Esta Política de Cookies pode ser revista a qualquer momento, de acordo com o nosso critério. Quando se fizerem tais alterações, a data de revisão no topo da página será alterada. A Política de Cookies alterada entrará em vigor a partir da data de revisão. Recomendamos os utilizadores do nosso website que revejam as Políticas de Cookies periodicamente, com o propósito de ficarem informados sobre a nossa gestão das cookies.",
+      },
+      dispute_resolution: {
+        title: "Resolução de Litigios",
+        description1:
+          "Nos termos e em cumprimento do disposto na Lei n.º 144/2015, de 08.09, a Banana Frog 3D disponibiliza a informação necessária para que o cliente consumidor possa exercer o seu direito de reclamação junto de uma entidade oficial, terceira e imparcial que o ajudará a resolver o litígio em questão. A resolução alternativa de litígios é a possibilidade que todos os consumidores têm ao seu dispor de recorrer a entidades oficiais que os ajudem na resolução ou orientação, de algum conflito, antes de abrirem processos litigiosos nos Tribunais.",
+        description2:
+          "Em regra, o procedimento pode descrever-se conforme segue:",
+        steps: [
+          "1) O cliente consumidor pede a um terceiro imparcial que intervenha como intermediário entre si e o fornecedor ou prestador de serviços que é o alvo da sua reclamação.",
+          "2) O intermediário pode sugerir uma solução para a sua reclamação, impor uma solução a ambas as partes ou reunir as partes para encontrar uma solução.",
+        ],
+        description3:
+          "A resolução alternativa de litígios pode traduzir-se em 'mediação', 'conciliação' ou 'arbitragem'. A resolução alternativa de litígios é, por norma, menos dispendiosa, menos formal e mais rápida do que a via judicial. Assim, em caso de litígio, o cliente consumidor pode recorrer a uma Entidade de Resolução Alternativa de Litígios de consumo:",
+        arbitration_centers: [
+          "- Centro de Arbitragem de Conflitos de Consumo de Lisboa: http://www.centroarbitragemlisboa.pt",
+          "- Centro de Arbitragem de Conflitos de Consumo do Vale do Ave/Tribunal Arbitral: http://www.triave.pt",
+          "- CIAB - Centro de Informação, Mediação e Arbitragem de Consumo (Tribunal Arbitral de Consumo): http://www.ciab.pt/pt",
+          "- CNIACC - Centro Nacional de Informação e Arbitragem de Conflitos de Consumo: https://www.cniacc.pt/pt/",
+          "- Centro de Arbitragem de Conflitos de Consumo do Distrito de Coimbra: http://www.centrodearbitragemdecoimbra.com",
+          "- Centro de Informação, Mediação e Arbitragem de Conflitos de Consumo do Algarve: http://www.consumoalgarve.pt",
+          "- Centro de Informação de Consumo e Arbitragem do Porto: http://www.cicap.pt",
+          "- Centro de Arbitragem de Conflitos de Consumo da Madeira: https://www.madeira.gov.pt/cacc",
+        ],
+        consumer_portal:
+          "Mais informações em Portal do Consumidor www.consumidor.pt",
+      },
+      complaint_book: {
+        title: "Livro de reclamações",
+        link: "https://www.livroreclamacoes.pt/inicio",
+      },
+    },
+    
   },
 };
