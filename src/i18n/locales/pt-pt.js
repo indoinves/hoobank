@@ -37,15 +37,15 @@ export default {
       heading: "Equipamento de",
       subheading: "Alta Fiabilidade.",
       description:
-        "A nossa produção utiliza várias impressoras Anycubic Kobra 2 Max, impressoras 3D de excelência, reconhecidas pela sua precisão e fiabilidade. Com um grande volume de construção e funcionalidades avançadas, estas máquinas asseguram que conseguimos realizar impressões complexas e de alta qualidade, proporcionando resultados detalhados e duradouros a cada utilização.",
+        "A nossa produção utiliza várias impressoras Anycubic Kobra 2 Max, reconhecidas pela sua precisão e fiabilidade. Com um grande volume de construção e funcionalidades avançadas, estas impressoras asseguram que conseguimos realizar impressões de alta qualidade, proporcionando resultados detalhados.",
     },
     business: {
       heading: "Quem somos",
       subheading: "nós?",
       paragraph1:
-        "Somos uma pequena equipa portuguesa que acredita que a criatividade não tem limites. Nossa missão é simples: transformar as suas ideias mais ambiciosas em realidade através da magia da impressão 3D.",
+        "Somos uma equipa portuguesa dedicada que acredita que a criatividade não tem limites. A nossa missão é clara: transformar as suas ideias mais ambiciosas em realidade através da magia da impressão 3D.",
       paragraph2:
-        "Colaboramos ativamente consigo de forma a que a sua visão se possa tornar numa realidade. Criamos produtos de qualidade, usando apenas o melhor filamento de impressao.",
+        "Colaboramos ativamente consigo para que a sua visão ganhe forma. O nosso compromisso com a excelência assegura que cada detalhe é cuidadosamente considerado, resultando em soluções personalizadas que superam as suas expectativas.",
     },
     features: [
       {
@@ -144,7 +144,7 @@ export default {
       {
         id: "product-1",
         content: "Um vaso simples feito para as suas flores.",
-        name: "Vaso Simples",
+        name: "Vaso Harmonia",
         sizes: "L, M, S",
         img: simpleVase,
       },

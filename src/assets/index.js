@@ -17,6 +17,7 @@ import rasenVase from "./product_imgs/rasen_vase.png";
 import origamiVase from "./product_imgs/origami_vase.png";
 import usaFlag from "./flags/usa_flag.png";
 import ptFlag from "./flags/pt_flag.png";
+import world from "./world.png"
 
 export {
   printer,
@@ -37,5 +38,6 @@ export {
   rasenVase,
   origamiVase,
   usaFlag,
-  ptFlag
+  ptFlag,
+  world
 };
