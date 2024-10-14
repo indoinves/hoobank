@@ -2,7 +2,6 @@
   position: relative;
   display: inline-block;
   margin: 0 5px;
-  margin-left: 20pt;
 }
 
 .switch > span {
@@ -56,7 +55,7 @@ input.check-toggle-round-flat:checked ~ .on {
 
 input.check-toggle-round-flat + label {
   padding: 2px;
-  width: 97px;
+  width: 100px;
   height: 35px;
   background-color: #F36F25;
   -webkit-border-radius: 60px;
@@ -65,7 +64,6 @@ input.check-toggle-round-flat + label {
   -o-border-radius: 60px;
   border-radius: 60px;
 }
-
 input.check-toggle-round-flat + label:before, input.check-toggle-round-flat + label:after {
   display: block;
   position: absolute;
