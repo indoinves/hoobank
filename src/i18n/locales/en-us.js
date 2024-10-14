@@ -144,7 +144,7 @@ export default {
       {
         id: "product-1",
         content: "A simple vase made for your flowers.",
-        name: "Simple Flower Vase",
+        name: "Harmony Vase",
         sizes: "L, M, S",
         img: simpleVase,
       },
