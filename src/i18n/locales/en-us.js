@@ -1,11 +1,16 @@
 import {
-  peoplerandom,
   eco,
   speed,
   gear,
-  origamiVase,
-  rasenVase,
-  simpleVase,
+  bookmarker1,
+  bookmarker2,
+  bookmarker3,
+  bookmarker4,
+  sign1,
+  sign2,
+  tag1,
+  tag2,
+  tag3,
 } from "../../assets";
 
 export default {
@@ -143,26 +148,34 @@ export default {
     products: [
       {
         id: "product-1",
-        content: "A simple vase made for your flowers.",
-        name: "Harmony Vase",
-        sizes: "L, M, S",
-        img: simpleVase,
+        content: "Choose your tag and customize it to your liking!",
+        name: "Custom Tags",
+        imgs: [tag1, tag2, tag3],
       },
       {
         id: "product-2",
-        content: "A touch of modern to your kitchen.",
-        name: "Rasen Vase",
-        sizes: "L, M, S",
-        img: rasenVase,
+        content: "Custom bookmarkers made to your taste.",
+        name: "Custom Bookmarkers",
+        imgs: [bookmarker1, bookmarker2, bookmarker3, bookmarker4],
       },
       {
         id: "product-3",
-        content: "A unique vase with the right touch of modern. ",
-        name: "Origami Vase",
-        sizes: "L, M, S",
-        img: origamiVase,
+        content: "Customs signs for your business.",
+        name: "Custom Signs",
+        imgs: [sign1, sign2],
       },
     ],
+    order: {
+      heading: "Ready to start improving your business?",
+      description:[
+        `At Banana Frog 3D, we specialize in custom 3D printing solutions designed to meet the unique needs of businesses across various industries. 
+        Our advanced 3D printing capabilities allow us to deliver precision, quality, and innovation tailored to your vision. 
+        Whether you're looking to prototype, streamline production, or enhance your products, our team is here to support your goals.`,
+        `Let's start a conversation on how Banana Frog 3D can help bring your business ideas to life. Connect with us to explore the possibilities for collaboration, customization, and success.`
+      ]
+        
+      
+    },
     stats: [
       {
         id: "stats-1",
@@ -214,7 +227,7 @@ export default {
       ],
     },
     product_title: {
-      title: "Choose your Favourite"
+      title: "See some of our Projects!"
     },
     product: {
       size_title: "Sizes"

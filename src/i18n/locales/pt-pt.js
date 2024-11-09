@@ -1,11 +1,16 @@
 import {
-  peoplerandom,
   eco,
   speed,
   gear,
-  origamiVase,
-  rasenVase,
-  simpleVase,
+  bookmarker1,
+  bookmarker2,
+  bookmarker3,
+  bookmarker4,
+  sign1,
+  sign2,
+  tag1,
+  tag2,
+  tag3,
 } from "../../assets";
 
 export default {
@@ -143,26 +148,32 @@ export default {
     products: [
       {
         id: "product-1",
-        content: "Um vaso simples feito para as suas flores.",
-        name: "Vaso Harmonia",
-        sizes: "L, M, S",
-        img: simpleVase,
+        content: "Personalize a sua tag ao seu gosto",
+        name: "Tags Personalizadas",
+        imgs: [tag1, tag2, tag3],
       },
       {
         id: "product-2",
-        content: "Dê um toque de modernidade à sua cozinha.",
-        name: "Vaso Rasen",
-        sizes: "L, M, S",
-        img: rasenVase,
+        content: "Marcadores personalizados de todos os tipos",
+        name: "Marcadores Personalizados",
+        imgs: [bookmarker1, bookmarker2, bookmarker3, bookmarker4],
       },
       {
         id: "product-3",
-        content: "Um vaso único com o toque certo de modernidade.",
-        name: "Vaso Origami",
-        sizes: "L, M, S",
-        img: origamiVase,
+        content: "Sinaletica personalizada para o seu negócio",
+        name: "Custom Signs",
+        imgs: [sign1, sign2],
       },
     ],
+    order: {
+      heading: "Esta pronto para revolucionar os seu negócio?",
+      description:[
+        `Na Banana Frog 3D, somos especialistas em soluções de impressão 3D personalizadas, de forma a responder às necessidades específicas da sua empresa.
+          A nossa tecnologia de impressão 3D permitem-nos oferecer precisão, qualidade e inovação adaptadas à sua visão. 
+          Quer esteja à procura de prototipagem, otimização de produção ou melhoria dos seus produtos, a nossa equipa está aqui para apoiar os seus objetivos.`,
+        `Fale connosco para saber como a Banana Frog 3D pode ajudar a dar vida às suas ideias. Venha explorar possibilidades de colaboração e personalização.`
+      ]
+    },
     stats: [
       {
         id: "stats-1",
@@ -214,7 +225,7 @@ export default {
       ],
     },
     product_title: {
-      title: "Escolha o seu Favorito"
+      title: "Veja alguns dos nossos projetos!"
     },
     product: {
       size_title: "Tamanhos"

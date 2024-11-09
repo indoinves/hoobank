@@ -2,6 +2,7 @@ import React from "react";
 import styles from "../styles/style";
 import { useTranslation } from "react-i18next";
 import Product from "./Product";
+import Order from "./Order";
 
 const Testimonials = () =>  {
   const { t, _, ready } = useTranslation();
@@ -11,7 +12,7 @@ const Testimonials = () =>  {
   return (
     <section id="products" className={`${styles.flexce} flex-col relative`}>
       <div className="absolute z-[0] md:w-[60%] md:h-[60%] md:-right-[50%] rounded-full blue__gradient md:bottom-40" />
-      <div className="w-full flex justify-between items-center md:flex-row flex-col sm:mb-16 mb-6 relative z-[1]">
+      <div className="w-full flex justify-between items-center md:flex-row flex-col relative z-[1]">
         <h2 className={`${styles.heading2} mt-10`}>
           {t("product_title.title")}
         </h2>
@@ -21,6 +22,7 @@ const Testimonials = () =>  {
           <Product key={card.id} {...card} />
         ))}
       </div>
+      <Order></Order>
     </section>
   );
 }
