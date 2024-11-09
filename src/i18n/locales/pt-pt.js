@@ -1,11 +1,16 @@
 import {
-  peoplerandom,
   eco,
   speed,
   gear,
-  origamiVase,
-  rasenVase,
-  simpleVase,
+  bookmarker1,
+  bookmarker2,
+  bookmarker3,
+  bookmarker4,
+  sign1,
+  sign2,
+  tag1,
+  tag2,
+  tag3,
 } from "../../assets";
 
 export default {
@@ -143,24 +148,21 @@ export default {
     products: [
       {
         id: "product-1",
-        content: "Um vaso simples feito para as suas flores.",
-        name: "Vaso Harmonia",
-        sizes: "L, M, S",
-        img: simpleVase,
+        content: "Choose your tag and customize it to your liking!",
+        name: "Custom Tags",
+        imgs: [tag1, tag2, tag3],
       },
       {
         id: "product-2",
-        content: "Dê um toque de modernidade à sua cozinha.",
-        name: "Vaso Rasen",
-        sizes: "L, M, S",
-        img: rasenVase,
+        content: "Custom bookmarkers made to your taste.",
+        name: "Custom Bookmarkers",
+        imgs: [bookmarker1, bookmarker2, bookmarker3, bookmarker4],
       },
       {
         id: "product-3",
-        content: "Um vaso único com o toque certo de modernidade.",
-        name: "Vaso Origami",
-        sizes: "L, M, S",
-        img: origamiVase,
+        content: "Order customs signs for your business. Choose from various sizes",
+        name: "Custom Signs",
+        imgs: [sign1, sign2],
       },
     ],
     stats: [
@@ -214,7 +216,7 @@ export default {
       ],
     },
     product_title: {
-      title: "Escolha o seu Favorito"
+      title: "Veja alguns dos nossos projetos!"
     },
     product: {
       size_title: "Tamanhos"

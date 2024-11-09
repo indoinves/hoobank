@@ -12,12 +12,21 @@ import discount from "./discount.png";
 import facebook from "./facebook.svg";
 import instagram from "./instagram.svg";
 import peoplerandom from "./peoplerandom.png"
-import simpleVase from "./product_imgs/simple_vase.png";
-import rasenVase from "./product_imgs/rasen_vase.png";
-import origamiVase from "./product_imgs/origami_vase.png";
 import usaFlag from "./flags/usa_flag.png";
 import ptFlag from "./flags/pt_flag.png";
 import world from "./world.png"
+
+
+// Product images. This should be moved to a DB.
+import bookmarker1 from "./product_imgs/bookmarkers/bookmarker-1.jpg";
+import bookmarker2 from "./product_imgs/bookmarkers/bookmarker-2.jpg";
+import bookmarker3 from "./product_imgs/bookmarkers/bookmarker-3.jpg";
+import bookmarker4 from "./product_imgs/bookmarkers/bookmarker-4.jpg";
+import sign1 from "./product_imgs/signal/signal-1.jpg";
+import sign2 from "./product_imgs/signal/signal-2.jpg";
+import tag1 from "./product_imgs/tags/tag-1.jpg";
+import tag2 from "./product_imgs/tags/tag-2.jpg";
+import tag3 from "./product_imgs/tags/tag-3.jpg";
 
 export {
   printer,
@@ -34,10 +43,16 @@ export {
   facebook,
   instagram,
   peoplerandom,
-  simpleVase,
-  rasenVase,
-  origamiVase,
   usaFlag,
   ptFlag,
-  world
+  world,
+  bookmarker1,
+  bookmarker2,
+  bookmarker3,
+  bookmarker4,
+  sign1,
+  sign2,
+  tag1,
+  tag2,
+  tag3
 };
