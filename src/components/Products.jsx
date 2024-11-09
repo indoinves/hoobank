@@ -2,6 +2,7 @@ import React from "react";
 import styles from "../styles/style";
 import { useTranslation } from "react-i18next";
 import Product from "./Product";
+import Order from "./Order";
 
 const Testimonials = () =>  {
   const { t, _, ready } = useTranslation();
@@ -21,6 +22,7 @@ const Testimonials = () =>  {
           <Product key={card.id} {...card} />
         ))}
       </div>
+      <Order></Order>
     </section>
   );
 }

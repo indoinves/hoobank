@@ -148,23 +148,32 @@ export default {
     products: [
       {
         id: "product-1",
-        content: "Choose your tag and customize it to your liking!",
-        name: "Custom Tags",
+        content: "Personalize a sua tag ao seu gosto",
+        name: "Tags Personalizadas",
         imgs: [tag1, tag2, tag3],
       },
       {
         id: "product-2",
-        content: "Custom bookmarkers made to your taste.",
-        name: "Custom Bookmarkers",
+        content: "Marcadores personalizados de todos os tipos",
+        name: "Marcadores Personalizados",
         imgs: [bookmarker1, bookmarker2, bookmarker3, bookmarker4],
       },
       {
         id: "product-3",
-        content: "Order customs signs for your business. Choose from various sizes",
+        content: "Sinaletica personalizada para o seu negócio",
         name: "Custom Signs",
         imgs: [sign1, sign2],
       },
     ],
+    order: {
+      heading: "Esta pronto para revolucionar os seu negócio?",
+      description:[
+        `Na Banana Frog 3D, somos especialistas em soluções de impressão 3D personalizadas, de forma a responder às necessidades específicas da sua empresa.
+          A nossa tecnologia de impressão 3D permitem-nos oferecer precisão, qualidade e inovação adaptadas à sua visão. 
+          Quer esteja à procura de prototipagem, otimização de produção ou melhoria dos seus produtos, a nossa equipa está aqui para apoiar os seus objetivos.`,
+        `Fale connosco para saber como a Banana Frog 3D pode ajudar a dar vida às suas ideias. Venha explorar possibilidades de colaboração e personalização.`
+      ]
+    },
     stats: [
       {
         id: "stats-1",

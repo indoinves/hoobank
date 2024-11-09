@@ -165,6 +165,17 @@ export default {
         imgs: [sign1, sign2],
       },
     ],
+    order: {
+      heading: "Ready to start improving your business?",
+      description:[
+        `At Banana Frog 3D, we specialize in custom 3D printing solutions designed to meet the unique needs of businesses across various industries. 
+        Our advanced 3D printing capabilities allow us to deliver precision, quality, and innovation tailored to your vision. 
+        Whether you're looking to prototype, streamline production, or enhance your products, our team is here to support your goals.`
+        `Let's start a conversation on how Banana Frog 3D can help bring your business ideas to life. Connect with us to explore the possibilities for collaboration, customization, and success.`
+      ]
+        
+      
+    },
     stats: [
       {
         id: "stats-1",
