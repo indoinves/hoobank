@@ -180,23 +180,30 @@ export default {
           },
           {
             id: "keycap-6",
-            content: "A keycap inspired by radioactive energy. Perfect for an electrifying setup!",
+            content: "A keycap perfect for an electrifying setup!",
             name: "Radioactive Cherry MX Key",
             price: "3.99",
             imgs: []
           },
           {
             id: "keycap-7",
-            content: "The ultimate escape key - a miniature exit sign for your keyboard, because sometimes you just need a way out!",
+            content: "Because sometimes you just need a way out...",
             name: "Exit Cherry MX Key",
             price: "3.99",
             imgs: []
           },
           {
             id: "keycap-8",
-            content: "Unleash the beast with this fierce raptor keycap - raw power and primal energy at your fingertips!",
+            content: "Unleash the beast with the raptor keycap!",
             name: "Raptor Cherry MX Key",
             price: "3.99",
+            imgs: []
+          },
+          {
+            id: "keycap-9",
+            content: "Take any key on the go with our clicker!",
+            name: "Custom Cherry MX Clicker",
+            price: "2.99",
             imgs: []
           },
         ]

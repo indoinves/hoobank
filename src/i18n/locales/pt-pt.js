@@ -178,26 +178,32 @@ export default {
           },
           {
             id: "keycap-6",
-            content: "Uma tecla inspirada na energia radioativa. Perfeita para um setup eletrificante!",
+            content: "Uma tecla radioativa perfeita para um setup eletrificante!",
             name: "Tecla Radioactive Cherry MX",
             price: "3.99",
             imgs: []
           },
           {
             id: "keycap-7",
-            content: "A tecla de fuga definitiva - uma mini placa de saída para o teu teclado, porque às vezes só precisas de uma saída!",
+            content: "A tecla de fuga. Porque às vezes só precisas de uma saída!",
             name: "Tecla Exit Cherry MX",
             price: "3.99",
             imgs: []
           },
           {
             id: "keycap-8",
-            content: "Liberta a fera com esta tecla raptor - pura força e energia na ponta dos teus dedos!",
+            content: "Liberta a fera com esta tecla raptor!",
             name: "Tecla Raptor Cherry MX",
             price: "3.99",
             imgs: []
           },
-          
+          {
+            id: "keycap-9",
+            content: "Leva qualquer tecla contigo com o nosso clicker!",
+            name: "Custom Cherry MX Clicker",
+            price: "2.99",
+            imgs: []
+          },
         ]
       },
       {
