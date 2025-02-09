@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { useTranslation } from "react-i18next";
 
-const Product = ({ content, name, sizes, imgs }) => {
+const Product = ({ content, name, price, imgs }) => {
   const { t, _, ready } = useTranslation();
 
   const [currentSlide, setCurrentSlide] = useState(0);
@@ -37,6 +37,11 @@ const Product = ({ content, name, sizes, imgs }) => {
       <div className="flex flex-row h-[50px]">
         <p className="font-poppins font-normal text-[18px] md:leading-[32px] text-white md:max-w-[300px]">
           {content}
+        </p>
+      </div>
+      <div className="flex flex-row h-[20px] my-10">
+        <p className="font-poppins font-normal text-[18px] md:leading-[32px] text-white md:max-w-[300px]">
+          {price}
         </p>
       </div>
     </div>

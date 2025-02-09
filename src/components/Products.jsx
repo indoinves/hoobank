@@ -4,10 +4,11 @@ import { useTranslation } from "react-i18next";
 import Product from "./Product";
 import Order from "./Order";
 
-const Testimonials = () =>  {
+const Products = () => {
   const { t, _, ready } = useTranslation();
   if (!ready) return "loading translations...";
-  const products = t("products", { returnObjects: true });
+
+  const productSections = t("productSections", { returnObjects: true });
 
   return (
     <section id="products" className={`${styles.flexce} flex-col relative`}>
@@ -17,14 +18,27 @@ const Testimonials = () =>  {
           {t("product_title.title")}
         </h2>
       </div>
-      <div className="flex flex-wrap justify-center w-full feedback-contrainer relative z-[1]">
-        {products.map((card) => (
-          <Product key={card.id} {...card} />
-        ))}
+
+      <div className="w-full flex justify-between items-center md:flex-row flex-col relative z-[1]">
+        <p className="font-poppins font-normal text-[18px] text-white mt-10">
+          {t("products_description")}
+        </p>
       </div>
-      <Order></Order>
+
+      {productSections.map((section) => (
+        <div key={section.title} className="w-full">
+          <h3 className={`${styles.heading3} mt-10`}>{section.title}</h3>
+          <div className="flex flex-wrap justify-center w-full feedback-container relative z-[1]">
+            {section.products.map((product) => (
+              <Product key={product.id} {...product} />
+            ))}
+          </div>
+        </div>
+      ))}
+
+      <Order />
     </section>
   );
-}
+};
 
-export default Testimonials;
+export default Products;

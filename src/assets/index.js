@@ -22,11 +22,6 @@ import bookmarker1 from "./product_imgs/bookmarkers/bookmarker-1.jpg";
 import bookmarker2 from "./product_imgs/bookmarkers/bookmarker-2.jpg";
 import bookmarker3 from "./product_imgs/bookmarkers/bookmarker-3.jpg";
 import bookmarker4 from "./product_imgs/bookmarkers/bookmarker-4.jpg";
-import sign1 from "./product_imgs/signal/signal-1.jpg";
-import sign2 from "./product_imgs/signal/signal-2.jpg";
-import tag1 from "./product_imgs/tags/tag-1.jpg";
-import tag2 from "./product_imgs/tags/tag-2.jpg";
-import tag3 from "./product_imgs/tags/tag-3.jpg";
 
 export {
   printer,
@@ -50,9 +45,4 @@ export {
   bookmarker2,
   bookmarker3,
   bookmarker4,
-  sign1,
-  sign2,
-  tag1,
-  tag2,
-  tag3
 };
