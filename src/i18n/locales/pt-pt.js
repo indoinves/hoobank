@@ -6,11 +6,27 @@ import {
   bookmarker2,
   bookmarker3,
   bookmarker4,
-  sign1,
-  sign2,
-  tag1,
-  tag2,
-  tag3,
+  batman1,
+  batman2,
+  creeper2,
+  duck1,
+  duck2,
+  duck3,
+  duck4,
+  exit1,
+  exit2,
+  skull1,
+  skull2,
+  star1,
+  star2,
+  raptor1,
+  raptor2,
+  radioactive1, 
+  radioactive2,
+  clicker1,
+  clicker2,
+  clicker3,
+  clicker4
 } from "../../assets";
 
 export default {
@@ -145,29 +161,109 @@ export default {
       description:
         "Adoraríamos ouvir a sua opiniao! Entre em contato conosco e aproveite uma oferta exclusiva: desfrute de um desconto de 20% a cada terceira encomenda! Estamos ansiosos por dar vida às suas ideias!",
     },
-    products: [
+    product_title: {
+      title: "A nossa linha de produtos"
+    },
+    products_description: "A BananaFrog 3D é um serviço especializado de impressão 3D que transforma as suas ideias em realidade, usando materiais de alta qualidade. Seja uma peça única e personalizada ou um protótipo funcional, damos vida às suas ideias. Para além deste serviço, oferecemos também uma linha exclusiva de produtos, proporcionando uma seleção de designs para quem procura algo especial.",
+    productSections: [
       {
-        id: "product-1",
-        content: "Personalize a sua tag ao seu gosto",
-        name: "Tags Personalizadas",
-        imgs: [tag1, tag2, tag3],
+        title: "Teclas Customizadas",
+        products: [
+          {
+            id: "keycap-1",
+            content: "A famosa tecla de pato para o teu teclado!",
+            name: "Tecla Duck Cherry MX",
+            price: "3.99€",
+            imgs: [duck1, duck2, duck3, duck4]
+          },
+          {
+            id: "keycap-2",
+            content: "O teu super-herói favorito no teu teclado!",
+            name: "Tecla Batman Cherry MX",
+            price: "3.99€",
+            imgs: [batman1, batman2]
+          },
+          {
+            id: "keycap-3",
+            content: "Mostra o teu entusiasmo por Minecraft com esta tecla!",
+            name: "Tecla Minecraft Cherry MX",
+            price: "3.99€",
+            imgs: [creeper2]
+          },
+          {
+            id: "keycap-5",
+            content: "Chega às estrelas, mas com os pés no chão!",
+            name: "Tecla Star Cherry MX",
+            price: "3.99€",
+            imgs: [star1, star2]
+          },
+          {
+            id: "keycap-6",
+            content: "Uma tecla radioativa perfeita para um setup eletrificante!",
+            name: "Tecla Radioactive Cherry MX",
+            price: "3.99€",
+            imgs: [radioactive1, radioactive2]
+          },
+          {
+            id: "keycap-7",
+            content: "A tecla de fuga. Porque às vezes só precisas de uma saída!",
+            name: "Tecla Exit Cherry MX",
+            price: "3.99€",
+            imgs: [exit1, exit2]
+          },
+          {
+            id: "keycap-8",
+            content: "Liberta a fera com esta tecla raptor!",
+            name: "Tecla Raptor Cherry MX",
+            price: "3.99€",
+            imgs: [raptor1, raptor2]
+          },
+          {
+            id: "keycap-9",
+            content: "Acrescenta um toque de escuridao ao teu setup!",
+            name: "Tecla Skull Cherry MX",
+            price: "3.99€",
+            imgs: [skull1, skull2]
+          },
+          {
+            id: "keycap-9",
+            content: "Leva qualquer tecla contigo com o nosso clicker!",
+            name: "Clicker Cherry MX",
+            price: "2.99€",
+            imgs: [clicker1, clicker2, clicker3, clicker4]
+          },
+        ]
       },
       {
-        id: "product-2",
-        content: "Marcadores personalizados de todos os tipos",
-        name: "Marcadores Personalizados",
-        imgs: [bookmarker1, bookmarker2, bookmarker3, bookmarker4],
-      },
-      {
-        id: "product-3",
-        content: "Sinaletica personalizada para o seu negócio",
-        name: "Custom Signs",
-        imgs: [sign1, sign2],
-      },
+        title: "Marcadores de Livros",
+        products: [
+          {
+            id: "bookmarker-1",
+            content: "Um marcador para os teus livros de Halloween!",
+            name: "Marcador Fantasma",
+            price: "Brevemente!",
+            imgs: [bookmarker1, bookmarker2]
+          },
+          {
+            id: "bookmarker-2",
+            content: "Um marcador para aquele livro especial de Halloween!",
+            name: "Marcador Fantasma",
+            price: "Brevemente!",
+            imgs: [bookmarker3]
+          },
+          {
+            id: "bookmarker-3",
+            content: "Um marcador de árvore assustadora.",
+            name: "Marcador de Árvore",
+            price: "Brevemente!",
+            imgs: [bookmarker4]
+          }
+        ]
+      }
     ],
     order: {
-      heading: "Esta pronto para revolucionar os seu negócio?",
-      description:[
+      heading: "Esta pronto para revolucionar o seu negócio?",
+      description: [
         `Na Banana Frog 3D, somos especialistas em soluções de impressão 3D personalizadas, de forma a responder às necessidades específicas da sua empresa.
           A nossa tecnologia de impressão 3D permitem-nos oferecer precisão, qualidade e inovação adaptadas à sua visão. 
           Quer esteja à procura de prototipagem, otimização de produção ou melhoria dos seus produtos, a nossa equipa está aqui para apoiar os seus objetivos.`,
@@ -223,9 +319,6 @@ export default {
           link: "https://www.instagram.com/bananafrog3d/",
         },
       ],
-    },
-    product_title: {
-      title: "Veja alguns dos nossos projetos!"
     },
     product: {
       size_title: "Tamanhos"

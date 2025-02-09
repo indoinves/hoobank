@@ -6,11 +6,27 @@ import {
   bookmarker2,
   bookmarker3,
   bookmarker4,
-  sign1,
-  sign2,
-  tag1,
-  tag2,
-  tag3,
+  batman1,
+  batman2,
+  creeper2,
+  duck1,
+  duck2,
+  duck3,
+  duck4,
+  exit1,
+  exit2,
+  skull1,
+  skull2,
+  star1,
+  star2,
+  raptor1,
+  raptor2,
+  radioactive1, 
+  radioactive2,
+  clicker1,
+  clicker2,
+  clicker3,
+  clicker4,
 } from "../../assets";
 
 export default {
@@ -145,36 +161,116 @@ export default {
       description:
         "We'd love to hear from you! Reach out to us today and take advantage of an exclusive offer: enjoy a 20% discount on every third item you print with us. It's our way of saying thank you for choosing us. We look forward to helping you bring your ideas to life!",
     },
-    products: [
+
+    // Product Line
+    product_title: {
+      title: "Our Product Line"
+    },
+    products_description: "BananaFrog 3D is a specialized on-demand 3D printing service, turning your ideas into reality with precision, creativity, and high-quality materials. Whether you need a unique custom piece or a functional prototype, we bring your vision to life. In addition to personalized prints, we also offer carefully crafted product lines printed in-house. These exclusive creations combine innovation and craftsmanship, providing a selection of ready-made designs for those looking for something special.",
+    productSections: [
       {
-        id: "product-1",
-        content: "Choose your tag and customize it to your liking!",
-        name: "Custom Tags",
-        imgs: [tag1, tag2, tag3],
+        title: "Custom Keycaps",
+        products: [
+          {
+            id: "keycap-1",
+            content: "The famous duck key for your keyboard!",
+            name: "Duck Cherry MX Key",
+            price: "3.99€",
+            imgs: [duck1, duck2, duck3, duck4]
+          },
+          {
+            id: "keycap-2",
+            content: "Your favourite Superhero on your Keyboard!",
+            name: "Batman Cherry MX Key",
+            price: "3.99€",
+            imgs: [batman1, batman2]
+          },
+          {
+            id: "keycap-4",
+            content: "Show your love for Minecraft with this custom key!",
+            name: "Minecraft Cherry MX Key",
+            price: "3.99€",
+            imgs: [creeper2]
+          },
+          {
+            id: "keycap-5",
+            content: "Get to the stars, but on the ground!",
+            name: "Star Cherry MX Key",
+            price: "3.99€",
+            imgs: [star1, star2]
+          },
+          {
+            id: "keycap-6",
+            content: "A keycap perfect for an electrifying setup!",
+            name: "Radioactive Cherry MX Key",
+            price: "3.99€",
+            imgs: [radioactive1, radioactive2]
+          },
+          {
+            id: "keycap-7",
+            content: "Because sometimes you just need a way out...",
+            name: "Exit Cherry MX Key",
+            price: "3.99€",
+            imgs: [exit1, exit2]
+          },
+          {
+            id: "keycap-8",
+            content: "Unleash the beast with the raptor keycap!",
+            name: "Raptor Cherry MX Key",
+            price: "3.99€",
+            imgs: [raptor1, raptor2]
+          },
+          {
+            id: "keycap-9",
+            content: "Add a touch of darkness to your setup!",
+            name: "Skull Cherry MX Key",
+            price: "3.99€",
+            imgs: [skull1, skull2]
+          },
+          {
+            id: "keycap-10",
+            content: "Take any key on the go with our clicker!",
+            name: "Custom Cherry MX Clicker",
+            price: "2.99€",
+            imgs: [clicker1, clicker2, clicker3, clicker4]
+          },
+        ]
       },
       {
-        id: "product-2",
-        content: "Custom bookmarkers made to your taste.",
-        name: "Custom Bookmarkers",
-        imgs: [bookmarker1, bookmarker2, bookmarker3, bookmarker4],
-      },
-      {
-        id: "product-3",
-        content: "Customs signs for your business.",
-        name: "Custom Signs",
-        imgs: [sign1, sign2],
+        title: "Bookmarks",
+        products: [
+          {
+            id: "bookmarker-1",
+            content: "A Ghost Bookmarker for your favourite Haloween Books!",
+            name: "Ghost Bookmarker",
+            price: "Coming Soon!",
+            imgs: [bookmarker1, bookmarker2]
+          },
+          {
+            id: "bookmarker-2",
+            content: "A Scary Ghost Bookmarker for that special Halloween Book!",
+            name: "Scary Ghost Bookmarker",
+            price: "Coming Soon!",
+            imgs: [bookmarker3]
+          },
+          {
+            id: "bookmarker-3",
+            content: "A Scary Tree Bookmarker",
+            name: "Scary Tree Bookmarker",
+            price: "Coming Soon!",
+            imgs: [bookmarker4]
+          },
+        ]
       },
     ],
     order: {
       heading: "Ready to start improving your business?",
-      description:[
+      description: [
         `At Banana Frog 3D, we specialize in custom 3D printing solutions designed to meet the unique needs of businesses across various industries. 
         Our advanced 3D printing capabilities allow us to deliver precision, quality, and innovation tailored to your vision. 
         Whether you're looking to prototype, streamline production, or enhance your products, our team is here to support your goals.`,
         `Let's start a conversation on how Banana Frog 3D can help bring your business ideas to life. Connect with us to explore the possibilities for collaboration, customization, and success.`
       ]
-        
-      
     },
     stats: [
       {
@@ -225,9 +321,6 @@ export default {
           link: "https://www.instagram.com/bananafrog3d/",
         },
       ],
-    },
-    product_title: {
-      title: "See some of our Projects!"
     },
     product: {
       size_title: "Sizes"
