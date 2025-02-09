@@ -6,6 +6,27 @@ import {
   bookmarker2,
   bookmarker3,
   bookmarker4,
+  batman1,
+  batman2,
+  creeper2,
+  duck1,
+  duck2,
+  duck3,
+  duck4,
+  exit1,
+  exit2,
+  skull1,
+  skull2,
+  star1,
+  star2,
+  raptor1,
+  raptor2,
+  radioactive1, 
+  radioactive2,
+  clicker1,
+  clicker2,
+  clicker3,
+  clicker4,
 } from "../../assets";
 
 export default {
@@ -148,63 +169,70 @@ export default {
     products_description: "BananaFrog 3D is a specialized on-demand 3D printing service, turning your ideas into reality with precision, creativity, and high-quality materials. Whether you need a unique custom piece or a functional prototype, we bring your vision to life. In addition to personalized prints, we also offer carefully crafted product lines printed in-house. These exclusive creations combine innovation and craftsmanship, providing a selection of ready-made designs for those looking for something special.",
     productSections: [
       {
-        title: "Keycaps",
+        title: "Custom Keycaps",
         products: [
           {
             id: "keycap-1",
             content: "The famous duck key for your keyboard!",
             name: "Duck Cherry MX Key",
-            price: "3.99",
-            imgs: []
+            price: "3.99€",
+            imgs: [duck1, duck2, duck3, duck4]
           },
           {
             id: "keycap-2",
             content: "Your favourite Superhero on your Keyboard!",
             name: "Batman Cherry MX Key",
-            price: "3.99",
-            imgs: []
+            price: "3.99€",
+            imgs: [batman1, batman2]
           },
           {
             id: "keycap-4",
             content: "Show your love for Minecraft with this custom key!",
             name: "Minecraft Cherry MX Key",
-            price: "3.99",
-            imgs: []
+            price: "3.99€",
+            imgs: [creeper2]
           },
           {
             id: "keycap-5",
             content: "Get to the stars, but on the ground!",
             name: "Star Cherry MX Key",
-            price: "3.99",
-            imgs: []
+            price: "3.99€",
+            imgs: [star1, star2]
           },
           {
             id: "keycap-6",
             content: "A keycap perfect for an electrifying setup!",
             name: "Radioactive Cherry MX Key",
-            price: "3.99",
-            imgs: []
+            price: "3.99€",
+            imgs: [radioactive1, radioactive2]
           },
           {
             id: "keycap-7",
             content: "Because sometimes you just need a way out...",
             name: "Exit Cherry MX Key",
-            price: "3.99",
-            imgs: []
+            price: "3.99€",
+            imgs: [exit1, exit2]
           },
           {
             id: "keycap-8",
             content: "Unleash the beast with the raptor keycap!",
             name: "Raptor Cherry MX Key",
-            price: "3.99",
-            imgs: []
+            price: "3.99€",
+            imgs: [raptor1, raptor2]
           },
           {
             id: "keycap-9",
+            content: "Add a touch of darkness to your setup!",
+            name: "Skull Cherry MX Key",
+            price: "3.99€",
+            imgs: [skull1, skull2]
+          },
+          {
+            id: "keycap-10",
             content: "Take any key on the go with our clicker!",
             name: "Custom Cherry MX Clicker",
-            price: "2.99",
-            imgs: []
+            price: "2.99€",
+            imgs: [clicker1, clicker2, clicker3, clicker4]
           },
         ]
       },

@@ -33,6 +33,7 @@ const Products = () => {
               <Product key={product.id} {...product} />
             ))}
           </div>
+          <hr></hr>
         </div>
       ))}
 

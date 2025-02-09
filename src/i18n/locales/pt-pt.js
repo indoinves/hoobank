@@ -6,6 +6,27 @@ import {
   bookmarker2,
   bookmarker3,
   bookmarker4,
+  batman1,
+  batman2,
+  creeper2,
+  duck1,
+  duck2,
+  duck3,
+  duck4,
+  exit1,
+  exit2,
+  skull1,
+  skull2,
+  star1,
+  star2,
+  raptor1,
+  raptor2,
+  radioactive1, 
+  radioactive2,
+  clicker1,
+  clicker2,
+  clicker3,
+  clicker4
 } from "../../assets";
 
 export default {
@@ -146,63 +167,70 @@ export default {
     products_description: "A BananaFrog 3D é um serviço especializado de impressão 3D que transforma as suas ideias em realidade, usando materiais de alta qualidade. Seja uma peça única e personalizada ou um protótipo funcional, damos vida às suas ideias. Para além deste serviço, oferecemos também uma linha exclusiva de produtos, proporcionando uma seleção de designs para quem procura algo especial.",
     productSections: [
       {
-        title: "Keycaps",
+        title: "Teclas Customizadas",
         products: [
           {
             id: "keycap-1",
             content: "A famosa tecla de pato para o teu teclado!",
             name: "Tecla Duck Cherry MX",
-            price: "3.99",
-            imgs: []
+            price: "3.99€",
+            imgs: [duck1, duck2, duck3, duck4]
           },
           {
             id: "keycap-2",
             content: "O teu super-herói favorito no teu teclado!",
             name: "Tecla Batman Cherry MX",
-            price: "3.99",
-            imgs: []
+            price: "3.99€",
+            imgs: [batman1, batman2]
           },
           {
             id: "keycap-3",
-            content: "Mostra o teu entusiasmo por Minecraft com esta tecla personalizada!",
+            content: "Mostra o teu entusiasmo por Minecraft com esta tecla!",
             name: "Tecla Minecraft Cherry MX",
-            price: "3.99",
-            imgs: []
+            price: "3.99€",
+            imgs: [creeper2]
           },
           {
             id: "keycap-5",
             content: "Chega às estrelas, mas com os pés no chão!",
             name: "Tecla Star Cherry MX",
-            price: "3.99",
-            imgs: []
+            price: "3.99€",
+            imgs: [star1, star2]
           },
           {
             id: "keycap-6",
             content: "Uma tecla radioativa perfeita para um setup eletrificante!",
             name: "Tecla Radioactive Cherry MX",
-            price: "3.99",
-            imgs: []
+            price: "3.99€",
+            imgs: [radioactive1, radioactive2]
           },
           {
             id: "keycap-7",
             content: "A tecla de fuga. Porque às vezes só precisas de uma saída!",
             name: "Tecla Exit Cherry MX",
-            price: "3.99",
-            imgs: []
+            price: "3.99€",
+            imgs: [exit1, exit2]
           },
           {
             id: "keycap-8",
             content: "Liberta a fera com esta tecla raptor!",
             name: "Tecla Raptor Cherry MX",
-            price: "3.99",
-            imgs: []
+            price: "3.99€",
+            imgs: [raptor1, raptor2]
+          },
+          {
+            id: "keycap-9",
+            content: "Acrescenta um toque de escuridao ao teu setup!",
+            name: "Tecla Skull Cherry MX",
+            price: "3.99€",
+            imgs: [skull1, skull2]
           },
           {
             id: "keycap-9",
             content: "Leva qualquer tecla contigo com o nosso clicker!",
-            name: "Custom Cherry MX Clicker",
-            price: "2.99",
-            imgs: []
+            name: "Clicker Cherry MX",
+            price: "2.99€",
+            imgs: [clicker1, clicker2, clicker3, clicker4]
           },
         ]
       },
@@ -211,22 +239,22 @@ export default {
         products: [
           {
             id: "bookmarker-1",
-            content: "Um marcador fantasma para os teus livros favoritos de Halloween!",
+            content: "Um marcador para os teus livros de Halloween!",
             name: "Marcador Fantasma",
             price: "Brevemente!",
             imgs: [bookmarker1, bookmarker2]
           },
           {
             id: "bookmarker-2",
-            content: "Um marcador fantasma assustador para aquele livro especial de Halloween!",
-            name: "Marcador Fantasma Assustador",
+            content: "Um marcador para aquele livro especial de Halloween!",
+            name: "Marcador Fantasma",
             price: "Brevemente!",
             imgs: [bookmarker3]
           },
           {
             id: "bookmarker-3",
             content: "Um marcador de árvore assustadora.",
-            name: "Marcador de Árvore Assustadora",
+            name: "Marcador de Árvore",
             price: "Brevemente!",
             imgs: [bookmarker4]
           }
