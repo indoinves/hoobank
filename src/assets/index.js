@@ -15,6 +15,7 @@ import peoplerandom from "./peoplerandom.png"
 import usaFlag from "./flags/usa_flag.png";
 import ptFlag from "./flags/pt_flag.png";
 import world from "./world.png"
+import shopping_cart from "./shopping-cart.gif"
 
 
 // Product images. This will be moved to a DB soon.
@@ -86,5 +87,6 @@ export {
   clicker1,
   clicker2,
   clicker3,
-  clicker4 
+  clicker4,
+  shopping_cart
 };

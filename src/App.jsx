@@ -1,11 +1,9 @@
 import React from "react";
 import { BrowserRouter as Router, Route, Routes, Link } from "react-router-dom";
 import {
-  Materials,
   Business,
   Equipment,
   Clients,
-  CTA,
   Footer,
   Landing,
   Navbar,
@@ -51,11 +49,9 @@ const App = () => {
                   <Wrapper>
                     {/* <Stats /> */}
                     <Business />
-                    <Materials />
                     <Equipment />
                     <Testimonials />
                     <Clients />
-                    <CTA />
                   </Wrapper>
                 </>
               }

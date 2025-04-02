@@ -1,8 +1,9 @@
 import React from "react";
-import styles, { layout } from "../styles/style";
-import { discount } from "../assets";
+import styles, { layout } from "../../styles/style";
+import { discount } from "../../assets";
 import { useTranslation } from "react-i18next";
 
+// This section has been discontinued. We still keep it here just for reuse purposes
 const Materials = () => {
   const { t, ready } = useTranslation();
   if (!ready) return "loading translations...";

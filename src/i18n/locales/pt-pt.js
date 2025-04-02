@@ -45,20 +45,15 @@ export default {
       },
     ],
     headline: {
-      part1: "Transforme",
-      part2: "Ideias",
-      part3: "em",
-      part4: "Realidade",
-    },
-    quote: {
-      text: '"Grandes coisas não são feitas por impulso, mas por uma série de pequenas coisas reunidas."',
-      author: "- Vincent Van Gogh",
+      part1: "Impressões 3D",
+      part2: "Personalizadas",
+      part3: "& Produtos",
+      part4: "Inovadores",
     },
     equipment: {
-      heading: "Equipamento de",
-      subheading: "Alta Fiabilidade.",
+      heading: "Precisão Garantida",
       description:
-        "A nossa produção utiliza várias impressoras Anycubic Kobra 2 Max, reconhecidas pela sua precisão e fiabilidade. Com um grande volume de construção e funcionalidades avançadas, estas impressoras asseguram que conseguimos realizar impressões de alta qualidade, proporcionando resultados detalhados.",
+        "A nossa produção baseia-se na precisão e fiabilidade, garantindo que cada impressão atinge os mais altos padrões de qualidade. Com tecnologia avançada e um foco na excelência, conseguimos transformar designs complexos em realidade, garantindo sempre um acabamento detalhado e profissional.",
     },
     business: {
       heading: "Quem somos",
@@ -120,47 +115,43 @@ export default {
         },
       ],
     },
-    materials: {
-      heading: "Escolha os",
-      subheading: "Materiais.",
-      discount: "20% de desconto a cada 3ª encomenda",
-      description:
-        "Experimente soluções de impressão 3D personalizadas. Envie-nos o seu design, escolha o tipo de material e a nossa equipa tratara do resto. As nossas impressões são de alta qualidade e adaptadas às suas necessidades.",
-      table: {
-        header: ["Cor", "Elasticidade", "Qualidade", "Custo"],
-        rows: [
-          {
-            name: "PLA",
-            malleability: "2/5",
-            quality: "4/5",
-            cost: ["3.00€/h", "2.50€/h"],
-          },
-          {
-            name: "PETG",
-            malleability: "3/5",
-            quality: "4/5",
-            cost: ["3.00€/h", "2.50€/h"],
-          },
-          {
-            name: "TPU",
-            malleability: "1/5",
-            quality: "2/5",
-            cost: ["4.00€/h", "3.50€/h"],
-          },
-          {
-            name: "ABS",
-            malleability: "2/5",
-            quality: "1/5",
-            cost: ["4.00€/h", "3.50€/h"],
-          },
-        ],
-      },
-    },
-    cta: {
-      heading: "Está pronto para criar?",
-      description:
-        "Adoraríamos ouvir a sua opiniao! Entre em contato conosco e aproveite uma oferta exclusiva: desfrute de um desconto de 20% a cada terceira encomenda! Estamos ansiosos por dar vida às suas ideias!",
-    },
+    // This section has been discontinued. We still keep it here just for reuse purposes
+    // materials: {
+    //   heading: "Escolha os",
+    //   subheading: "Materiais.",
+    //   discount: "20% de desconto a cada 3ª encomenda",
+    //   description:
+    //     "Experimente soluções de impressão 3D personalizadas. Envie-nos o seu design, escolha o tipo de material e a nossa equipa tratara do resto. As nossas impressões são de alta qualidade e adaptadas às suas necessidades.",
+    //   table: {
+    //     header: ["Cor", "Elasticidade", "Qualidade", "Custo"],
+    //     rows: [
+    //       {
+    //         name: "PLA",
+    //         malleability: "2/5",
+    //         quality: "4/5",
+    //         cost: ["3.00€/h", "2.50€/h"],
+    //       },
+    //       {
+    //         name: "PETG",
+    //         malleability: "3/5",
+    //         quality: "4/5",
+    //         cost: ["3.00€/h", "2.50€/h"],
+    //       },
+    //       {
+    //         name: "TPU",
+    //         malleability: "1/5",
+    //         quality: "2/5",
+    //         cost: ["4.00€/h", "3.50€/h"],
+    //       },
+    //       {
+    //         name: "ABS",
+    //         malleability: "2/5",
+    //         quality: "1/5",
+    //         cost: ["4.00€/h", "3.50€/h"],
+    //       },
+    //     ],
+    //   },
+    // },
     product_title: {
       title: "A nossa linha de produtos"
     },
