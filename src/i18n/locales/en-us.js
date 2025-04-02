@@ -45,20 +45,15 @@ export default {
       },
     ],
     headline: {
-      part1: "Turning",
-      part2: "Ideas",
-      part3: "Into",
-      part4: "Reality",
-    },
-    quote: {
-      text: '"Great things are not done by impulse, but by a series of small things brought together."',
-      author: "- Vincent Van Gogh",
+      part1: "Custom 3D",
+      part2: "Solutions",
+      part3: "& Shop-Ready",
+      part4: "Products",
     },
     equipment: {
-      heading: "Equipment That",
-      subheading: "Gets the Job Done.",
+      heading: "Precision in Every Print",
       description:
-        "Our production is powered by several Anycubic Kobra 2 Max printers, a top-tier 3D printer known for its precision and reliability. With a large build volume and advanced features, this machine ensures that we can handle complex and high-quality prints, delivering detailed and durable results every time.",
+        "Our production process is built on precision and reliability. We utilize cutting-edge technology and employ industry best practices to achieve high accuracy and detail. With a focus on durability, we offer robust and reliable results every time. Whether you're creating intricate prototypes or large-scale production runs, we deliver results that consistently exceed expectations.",
     },
     business: {
       heading: "Who are",
@@ -91,42 +86,43 @@ export default {
           "Commit to sustainability with our environmentally conscious 3D printing. We minimize waste and use recyclable materials, ensuring that your projects are both cutting-edge and eco-friendly.",
       },
     ],
-    materials: {
-      heading: "Choose your",
-      subheading: "Materials.",
-      discount: "20% Discount on every 3rd Order",
-      description:
-        "Experience seamless and customized 3D printing solutions with our on-demand order service. Simply send your design, choose your specifications, and let us handle the rest. From prototypes to final products, we deliver high-quality prints tailored to your needs.",
-      table: {
-        header: ["Colors", "Malleability", "Quality", "Cost"],
-        rows: [
-          {
-            name: "PLA",
-            malleability: "2/5",
-            quality: "4/5",
-            cost: ["3.00€/h", "2.50€/h"],
-          },
-          {
-            name: "PETG",
-            malleability: "3/5",
-            quality: "4/5",
-            cost: ["3.00€/h", "2.50€/h"],
-          },
-          {
-            name: "TPU",
-            malleability: "1/5",
-            quality: "2/5",
-            cost: ["4.00€/h", "3.50€/h"],
-          },
-          {
-            name: "ABS",
-            malleability: "2/5",
-            quality: "1/5",
-            cost: ["4.00€/h", "3.50€/h"],
-          },
-        ],
-      },
-    },
+    // This section has been discontinued. We still keep it here just for reuse purposes
+    // materials: {
+    //   heading: "Choose your",
+    //   subheading: "Materials.",
+    //   discount: "20% Discount on every 3rd Order",
+    //   description:
+    //     "Experience seamless and customized 3D printing solutions with our on-demand order service. Simply send your design, choose your specifications, and let us handle the rest. From prototypes to final products, we deliver high-quality prints tailored to your needs.",
+    //   table: {
+    //     header: ["Colors", "Malleability", "Quality", "Cost"],
+    //     rows: [
+    //       {
+    //         name: "PLA",
+    //         malleability: "2/5",
+    //         quality: "4/5",
+    //         cost: ["3.00€/h", "2.50€/h"],
+    //       },
+    //       {
+    //         name: "PETG",
+    //         malleability: "3/5",
+    //         quality: "4/5",
+    //         cost: ["3.00€/h", "2.50€/h"],
+    //       },
+    //       {
+    //         name: "TPU",
+    //         malleability: "1/5",
+    //         quality: "2/5",
+    //         cost: ["4.00€/h", "3.50€/h"],
+    //       },
+    //       {
+    //         name: "ABS",
+    //         malleability: "2/5",
+    //         quality: "1/5",
+    //         cost: ["4.00€/h", "3.50€/h"],
+    //       },
+    //     ],
+    //   },
+    // },
     testimonials: {
       heading: "What people say about us",
       feedback: [
@@ -155,11 +151,6 @@ export default {
           img: "peoplerandom",
         },
       ],
-    },
-    cta: {
-      heading: "Are you ready to create?",
-      description:
-        "We'd love to hear from you! Reach out to us today and take advantage of an exclusive offer: enjoy a 20% discount on every third item you print with us. It's our way of saying thank you for choosing us. We look forward to helping you bring your ideas to life!",
     },
 
     // Product Line

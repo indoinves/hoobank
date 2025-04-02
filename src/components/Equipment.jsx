@@ -8,25 +8,25 @@ const Equipment = () => {
 
   return (
     <section className={layout.section}>
-      <div className={layout.sectionInfo}>
-        <h2 className={styles.heading2}>
-          {t("equipment.heading")} <br className="md:block hidden" />
-          {t("equipment.subheading")}
-        </h2>
-        <p className={`${styles.paragraph} md:max-w-[470px] mt-5`}>
-          {t("equipment.description")}
-        </p>
-      </div>
-      <div className={layout.sectionImg}>
+      <div className={layout.sectionImgReverse}>
         <video
           src={printer}
           autoPlay
           muted
           loop
           alt="3dprinter"
-          className="w-[100%] h-[100%]"
+          className="w-[120%] h-[120%]"
         />
       </div>
+      <div className={layout.sectionInfo}>
+        <h2 className={styles.heading2}>
+          {t("equipment.heading")}
+        </h2>
+        <p className={`${styles.paragraph} md:max-w-[520px] mt-5`}>
+          {t("equipment.description")}
+        </p>
+      </div>
+      
     </section>
   );
 };
