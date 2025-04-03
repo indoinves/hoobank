@@ -45,23 +45,25 @@ export default {
       },
     ],
     headline: {
-      part1: "Custom 3D",
-      part2: "Solutions",
-      part3: "& Shop-Ready",
-      part4: "Products",
+      part1: "Build the",
+      part2: "Future",
+      part3: "Layer",
+      part4: "By Layer",
     },
+    shopButton: "Shop Now!",
     equipment: {
       heading: "Precision in Every Print",
       description:
-        "Our production process is built on precision and reliability. We utilize cutting-edge technology and employ industry best practices to achieve high accuracy and detail. With a focus on durability, we offer robust and reliable results every time. Whether you're creating intricate prototypes or large-scale production runs, we deliver results that consistently exceed expectations.",
+        "Our production process is founded on a commitment to precision, reliability, and excellence. We leverage state-of-the-art 3D printing technology combined with advanced techniques to ensure every project is executed with the highest level of accuracy and attention to detail. Our team is dedicated to delivering flawless results, whether it's for intricate prototypes, one-of-a-kind designs, or large-scale production runs.",
     },
     business: {
       heading: "Who are",
       subheading: "we?",
-      paragraph1:
-        "We are a small but passionate Portuguese team of technology artists who believe that creativity knows no bounds. Our mission is simple: to turn your most ambitious ideas into tangible reality through the magic of 3D printing.",
-      paragraph2:
-        "We don't just print on demand—we actively collaborate with you, guiding your vision every step of the way. At the heart of everything we do is a deep love for transforming what seems impossible into something real, tangible, and beautiful.",
+      paragraphs:[
+        "We are a passionate and dynamic Portuguese team of technology artists, dedicated to transforming your boldest ideas into reality through the power of 3D printing. As a small but driven company, we specialize in both on-demand printing services and our own exclusive product line.",
+        "Our mission is to help bring concepts to life, offering not just top-tier 3D printing services but a collaborative approach that guides your vision every step of the way. Whether it's bringing your custom designs to life or delivering our own carefully crafted products, we're here to make the impossible real.",
+        "Our priority is innovation and efficiency, always aiming to provide solutions that meet the most demanding needs."
+      ],
     },
     features: [
       {
@@ -86,43 +88,6 @@ export default {
           "Commit to sustainability with our environmentally conscious 3D printing. We minimize waste and use recyclable materials, ensuring that your projects are both cutting-edge and eco-friendly.",
       },
     ],
-    // This section has been discontinued. We still keep it here just for reuse purposes
-    // materials: {
-    //   heading: "Choose your",
-    //   subheading: "Materials.",
-    //   discount: "20% Discount on every 3rd Order",
-    //   description:
-    //     "Experience seamless and customized 3D printing solutions with our on-demand order service. Simply send your design, choose your specifications, and let us handle the rest. From prototypes to final products, we deliver high-quality prints tailored to your needs.",
-    //   table: {
-    //     header: ["Colors", "Malleability", "Quality", "Cost"],
-    //     rows: [
-    //       {
-    //         name: "PLA",
-    //         malleability: "2/5",
-    //         quality: "4/5",
-    //         cost: ["3.00€/h", "2.50€/h"],
-    //       },
-    //       {
-    //         name: "PETG",
-    //         malleability: "3/5",
-    //         quality: "4/5",
-    //         cost: ["3.00€/h", "2.50€/h"],
-    //       },
-    //       {
-    //         name: "TPU",
-    //         malleability: "1/5",
-    //         quality: "2/5",
-    //         cost: ["4.00€/h", "3.50€/h"],
-    //       },
-    //       {
-    //         name: "ABS",
-    //         malleability: "2/5",
-    //         quality: "1/5",
-    //         cost: ["4.00€/h", "3.50€/h"],
-    //       },
-    //     ],
-    //   },
-    // },
     testimonials: {
       heading: "What people say about us",
       feedback: [
