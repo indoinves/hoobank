@@ -117,43 +117,6 @@ export default {
         },
       ],
     },
-    // This section has been discontinued. We still keep it here just for reuse purposes
-    // materials: {
-    //   heading: "Escolha os",
-    //   subheading: "Materiais.",
-    //   discount: "20% de desconto a cada 3ª encomenda",
-    //   description:
-    //     "Experimente soluções de impressão 3D personalizadas. Envie-nos o seu design, escolha o tipo de material e a nossa equipa tratara do resto. As nossas impressões são de alta qualidade e adaptadas às suas necessidades.",
-    //   table: {
-    //     header: ["Cor", "Elasticidade", "Qualidade", "Custo"],
-    //     rows: [
-    //       {
-    //         name: "PLA",
-    //         malleability: "2/5",
-    //         quality: "4/5",
-    //         cost: ["3.00€/h", "2.50€/h"],
-    //       },
-    //       {
-    //         name: "PETG",
-    //         malleability: "3/5",
-    //         quality: "4/5",
-    //         cost: ["3.00€/h", "2.50€/h"],
-    //       },
-    //       {
-    //         name: "TPU",
-    //         malleability: "1/5",
-    //         quality: "2/5",
-    //         cost: ["4.00€/h", "3.50€/h"],
-    //       },
-    //       {
-    //         name: "ABS",
-    //         malleability: "2/5",
-    //         quality: "1/5",
-    //         cost: ["4.00€/h", "3.50€/h"],
-    //       },
-    //     ],
-    //   },
-    // },
     product_title: {
       title: "A nossa linha de produtos"
     },

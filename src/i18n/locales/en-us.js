@@ -88,43 +88,6 @@ export default {
           "Commit to sustainability with our environmentally conscious 3D printing. We minimize waste and use recyclable materials, ensuring that your projects are both cutting-edge and eco-friendly.",
       },
     ],
-    // This section has been discontinued. We still keep it here just for reuse purposes
-    // materials: {
-    //   heading: "Choose your",
-    //   subheading: "Materials.",
-    //   discount: "20% Discount on every 3rd Order",
-    //   description:
-    //     "Experience seamless and customized 3D printing solutions with our on-demand order service. Simply send your design, choose your specifications, and let us handle the rest. From prototypes to final products, we deliver high-quality prints tailored to your needs.",
-    //   table: {
-    //     header: ["Colors", "Malleability", "Quality", "Cost"],
-    //     rows: [
-    //       {
-    //         name: "PLA",
-    //         malleability: "2/5",
-    //         quality: "4/5",
-    //         cost: ["3.00€/h", "2.50€/h"],
-    //       },
-    //       {
-    //         name: "PETG",
-    //         malleability: "3/5",
-    //         quality: "4/5",
-    //         cost: ["3.00€/h", "2.50€/h"],
-    //       },
-    //       {
-    //         name: "TPU",
-    //         malleability: "1/5",
-    //         quality: "2/5",
-    //         cost: ["4.00€/h", "3.50€/h"],
-    //       },
-    //       {
-    //         name: "ABS",
-    //         malleability: "2/5",
-    //         quality: "1/5",
-    //         cost: ["4.00€/h", "3.50€/h"],
-    //       },
-    //     ],
-    //   },
-    // },
     testimonials: {
       heading: "What people say about us",
       feedback: [
