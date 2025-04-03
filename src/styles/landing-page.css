@@ -6,7 +6,7 @@
 .landing-wrapper {
     width: 100%;
     height: 92vh;
-    background: radial-gradient(transparent 70%, rgba(1,4,15,255));
+    background: radial-gradient(transparent 70%, rgba(1, 4, 15, 255));
 }
 
 .video-style {
@@ -23,12 +23,37 @@
     margin-top: 15vh;
 }
 
-@media (max-width: 800px) {
+.button-text {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: inherit;
+}
+
+@media (max-width: 768px) {
     .landing-title {
-        margin: 0 auto;
-        width: 100%;
-        left: 0;
-        right: 0;
-        margin-top: 10vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        position: absolute;
+        top: 30%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        max-width: 1500pt;
+        width: 90%;
     }
+
+    .landing-title h1 {
+        letter-spacing: 1px;
+        /* Increase letter-spacing to spread the text */
+        line-height: 1.5;
+        /* Increase line-height to create more space between lines */
+    }
+
+    .button-text {
+        font-size: 14px;
+    }
+
 }

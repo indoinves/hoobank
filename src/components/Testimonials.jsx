@@ -5,7 +5,7 @@ import Feedback from "./Feedback";
 
 const Testimonials = () =>  {
   const { t, ready } = useTranslation();
-  if (!ready) return "Carregando traduções..."; // Loading translations message in Portuguese
+  if (!ready) return "Loading Translation...";
   
   const feedback = t("testimonials.feedback", { returnObjects: true });
 

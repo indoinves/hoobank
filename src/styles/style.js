@@ -4,7 +4,7 @@ const styles = {
   heading2: "font-poppins font-semibold xs:text-[48px] text-[40px] text-white xs:leading-[76.8px] leading-[66.8px] w-full",
   heading3: "font-poppins font-semibold xs:text-[30px] text-[40px] text-white xs:leading-[76.8px] leading-[66.8px] w-full",
   paragraph: "font-poppins font-normal text-dimWhite text-[18px] leading-[30.8px]",
-  button: "flex items-center bg-white border-2 border-[.bg-blue-gradient] rounded-[30px] px-5 py-2.5 cursor-pointer shadow-lg font-poppins text-[18px] leading-[30.8px] text-[#4F4F4F] mt-6", // Button styling
+  button: "flex items-center bg-white border-2 border-[.bg-blue-gradient] rounded-[20px] px-5 py-2.5 cursor-pointer shadow-lg font-poppins text-[#4F4F4F] mt-10", // Button styling
 
   flexCenter: "flex justify-center items-center",
   flexStart: "flex justify-center items-start",
@@ -19,7 +19,7 @@ const styles = {
 }
 
 export const layout = {
-  section: `flex md:flex-row flex-col ${styles.paddingY}`,
+  section: `flex-col ${styles.paddingY}`,
   sectionReverse: `flex md:flex-row flex-col-reverse ${styles.paddingY}`,
 
   sectionImgReverse: `flex-1 flex ${styles.flexCenter} md:mr-10 mr-0 md:mt-0 mt-10 relative`,

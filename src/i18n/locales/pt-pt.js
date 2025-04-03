@@ -45,11 +45,12 @@ export default {
       },
     ],
     headline: {
-      part1: "Impressões 3D",
-      part2: "Personalizadas",
-      part3: "& Produtos",
-      part4: "Inovadores",
+      part1: "Construa o",
+      part2: "Futuro",
+      part3: "A Cada",
+      part4: "Camada",
     },
+    shopButton: "Compre Agora!",
     equipment: {
       heading: "Precisão Garantida",
       description:
@@ -58,10 +59,11 @@ export default {
     business: {
       heading: "Quem somos",
       subheading: "nós?",
-      paragraph1:
-        "Somos uma equipa portuguesa dedicada que acredita que a criatividade não tem limites. A nossa missão é clara: transformar as suas ideias mais ambiciosas em realidade através da magia da impressão 3D.",
-      paragraph2:
-        "Colaboramos ativamente consigo para que a sua visão ganhe forma. O nosso compromisso com a excelência assegura que cada detalhe é cuidadosamente considerado, resultando em soluções personalizadas que superam as suas expectativas.",
+      paragraphs: [
+        "Somos uma equipa Portuguesa dedicada a transformar as tuas ideias em realidade através da impressão 3D. O nosso serviço de impressão 3D foi desenvolvido para atender às necessidades de empresas, oferecendo soluções personalizadas. Além disso, contamos com a nossa própria linha exclusiva de produtos, criada com a mesma atenção ao detalhe e inovação.",
+        "Oferecemos uma abordagem colaborativa para garantir que a sua visão ganhe vida. O nosso compromisso com a excelência assegura que cada detalhe é cuidadosamente considerado, resultando em soluções personalizadas que superam as suas expectativas.",
+        "A nossa prioridade é inovação e eficiência, com o objetivo de superar as expectativas e oferecer soluções que atendam às necessidades mais exigentes."
+      ],
     },
     features: [
       {
@@ -69,7 +71,7 @@ export default {
         icon: gear,
         title: "Personalização Exclusiva",
         content:
-          "Dê vida às suas ideias com a nossa avançada tecnologia de impressão 3D, oferecendo personalização incomparável. Criamos produtos únicos para cada cliente, que são tão funcionais quanto inovadores.",
+          "Transforme as suas ideias em realidade com a nossa tecnologia de impressão 3D, oferecendo uma personalização única. Criamos produtos exclusivos, combinando funcionalidade e inovação.",
       },
       {
         id: "feature-2",
